@@ -111,7 +111,7 @@ figure {
 
 /* Clearfix */
 .main-nav:after {
-	content: "";
+	content: " ";
 	display: block;
 	clear: both;
 }
@@ -368,14 +368,6 @@ p.text-box-link:before {
 	padding-top: 1px;
 }
 
-.event-text {
-
-}
-
-.event-box-text {
-
-}
-
 .all-events-link {
 	margin-top: 10px;
 	font-size: 18px;
@@ -427,12 +419,12 @@ ul.services {
 .footer-block {
 	background-color: #2B2B2B;
 	padding: 10px;
-	height: 350px;
+	height: 320px;
 }
 
 div.footer-links:after {
 	clear: both;
-	content:"";
+	content:" ";
 	display:block;
 }
 
@@ -443,7 +435,7 @@ div.footer-links:after {
 }
 
 .footer-heading {
-	font-size: 18px;
+	font-size: 16px;
 }
 
 .key-solutions, .products-services, .company-links {
@@ -455,13 +447,13 @@ div.footer-links:after {
 .key-solutions a, .products-services a, .company-links a {
 	text-decoration: none;
 	color: white;
+	font-size: 14px;
 }
-
 
 
 /* Footer Menu */
 .footer-nav {
-	margin-top: 100px;
+	margin-top: 70px;
 	margin-right: 0px;
 }
 
@@ -481,6 +473,40 @@ ul.footer-menu {
 	text-decoration: none;
 }
 
+/* Footer Side Box */
+.footer-box-content {
+	background-color: #3D3D3D;
+	width: 230px;
+	color: white;
+}
+
+.date-box-footer {
+	width: 60px;
+	height: 80px;
+	padding: 2px;
+	float: left;	
+	display: inline-block;
+	margin: 8px 10px 0px 5px;
+}
+
+.footer-date {
+	font-size: 54px;
+	margin: 0px;
+	text-align: center;
+	line-height: 64px;
+}
+
+.footer-month {
+	font-size: 26px;
+	margin: 0px;
+	text-align: center;
+}
+
+.latest-blog-post-text {
+	margin: 5px 8px;
+	padding: 1px 5px;
+	font-size: 18px;
+}
 
 /* Subscribtion */
 .footer-box h4 {
@@ -489,11 +515,9 @@ ul.footer-menu {
 } 
 
 /* Social Icons Panel */
-
 .social-icons {
 	background-color: #3D3D3D;
 	padding: 10px;
-	border-radius: 8px;
-	width: 200px;
+	width: 230px;
 }
 
