@@ -6,7 +6,7 @@ body {
 .content {
 	background-color: #e5e5e5;
 	box-shadow: 0px 10px 10px 0px grey;
-	margin: 10px 200px;
+	margin: 10px 150px;
 	padding: 5px 30px;
 }
 
@@ -422,7 +422,7 @@ ul.services {
 	height: 320px;
 }
 
-div.footer-links:after {
+div.footer-box:after {
 	clear: both;
 	content:" ";
 	display:block;
@@ -451,29 +451,12 @@ div.footer-links:after {
 }
 
 
-/* Footer Menu */
-.footer-nav {
-	margin-top: 70px;
-	margin-right: 0px;
-}
-
-ul.footer-menu {
-	margin: 0px;
-}
-
-.footer-menu > li {
-	list-style: none;
-	margin: 0px;
-	display: inline;
-	color: white;
-}
-
-.footer-menu > li > a {
-	color: white;
-	text-decoration: none;
-}
 
 /* Footer Side Box */
+.footer-box {
+	float: right;
+}
+
 .footer-box-content {
 	background-color: #3D3D3D;
 	width: 230px;
@@ -521,3 +504,27 @@ ul.footer-menu {
 	width: 230px;
 }
 
+
+
+/* Footer Navigation */
+.footer-nav {
+	margin-right: 0px;
+	font-size: 14px;
+}
+
+ul.footer-menu {
+	margin: 0px;
+	padding: 0px;
+}
+
+.footer-menu > li {
+	list-style: none;
+	margin: 0px;
+	display: inline-block;
+	color: white;
+}
+
+.footer-menu > li > a {
+	color: white;
+	text-decoration: none;
+}
