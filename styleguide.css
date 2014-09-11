@@ -6,7 +6,7 @@ body {
 .content {
 	background-color: #e5e5e5;
 	box-shadow: 0px 10px 10px 0px grey;
-	margin: 10px 200px;
+	margin: 10px 150px;
 	padding: 5px 30px;
 }
 
@@ -111,7 +111,7 @@ figure {
 
 /* Clearfix */
 .main-nav:after {
-	content: "";
+	content: " ";
 	display: block;
 	clear: both;
 }
@@ -225,7 +225,7 @@ input[type="search"] {
 	border: 1px solid grey;
 }
 
-input[type="submit"] {
+.search-box input[type="submit"] {
 	background: url(img/searchBtn.png) no-repeat 50% 50%;
 	border: none;
 	float: right;
@@ -233,7 +233,7 @@ input[type="submit"] {
 	width: 20px;
 }
 
-.divider {
+.search-box .divider {
 	background: url(img/divider.png) no-repeat 50% 50%;
 	float: right;
 	height: 20px;
@@ -368,14 +368,6 @@ p.text-box-link:before {
 	padding-top: 1px;
 }
 
-.event-text {
-
-}
-
-.event-box-text {
-
-}
-
 .all-events-link {
 	margin-top: 10px;
 	font-size: 18px;
@@ -420,6 +412,76 @@ ul.services {
 	text-align: center;
 }
 
+/* Story Boxes */
+.story-box {
+	background: white;
+	color: grey; 
+	width: 340px;
+	height: 170px;
+	padding: 10px;
+}
+
+.person-face {
+	float:left;
+}
+
+/* Adding Quote Image to Text - doesn't work
+
+.story-box blockquote:before {
+	content: " ";
+	background: url("img/quote-grey.png") no-repeat 50% 50%;
+	width: 20px;
+	height: 20px;
+}*/
+
+.story-box blockquote {
+	font-size: 19px;
+	margin: 0 0 15px 110px;
+}
+
+.story-box blockquote:after {
+	content:" ";
+	clear:both;
+	display:block;
+}
+
+.person-details {
+	border-top: 1px solid #a0a0a0;
+}
+
+.person-name {
+	font-size: 16px;
+	color: #3195c9; 
+	margin: 5px 0;
+	display: inline-block;
+	float: left;
+}
+
+.person-role {
+	font-size: 14px;
+	color: grey; 
+	margin: 0;
+	display: inline-block;
+	float: left;
+	text-transform: none;
+}
+
+.client-logo {
+	background: url("img/3mob_logo_bw.jpg") no-repeat;
+	height: 45px;
+	width: 80px;
+	float: right;
+	outline:none;
+	max-width: 100%;
+	margin: 5px 0 0 0;
+}
+
+.person-details:after {
+	content:" ";
+	clear:both;
+	display:block;
+}
+
 
 /* ---- Footer ---- */
 
@@ -427,13 +489,7 @@ ul.services {
 .footer-block {
 	background-color: #2B2B2B;
 	padding: 10px;
-	height: 350px;
-}
-
-div.footer-links:after {
-	clear: both;
-	content:"";
-	display:block;
+	height: 320px;
 }
 
 .footer-links-column {
@@ -443,7 +499,7 @@ div.footer-links:after {
 }
 
 .footer-heading {
-	font-size: 18px;
+	font-size: 16px;
 }
 
 .key-solutions, .products-services, .company-links {
@@ -455,24 +511,111 @@ div.footer-links:after {
 .key-solutions a, .products-services a, .company-links a {
 	text-decoration: none;
 	color: white;
+	font-size: 14px;
 }
 
 
 
-/* Footer Menu */
+/* Footer Side Box */
+.footer-box {
+	float: right;
+}
+
+.footer-box-content {
+	background-color: #3D3D3D;
+	width: 230px;
+	color: white;
+}
+
+.date-box-footer {
+	width: 60px;
+	height: 80px;
+	padding: 2px;
+	float: left;	
+	display: inline-block;
+	margin: 8px 10px 0px 5px;
+}
+
+.footer-date {
+	font-size: 54px;
+	margin: 0px;
+	text-align: center;
+	line-height: 64px;
+}
+
+.footer-month {
+	font-size: 26px;
+	margin: 0px;
+	text-align: center;
+}
+
+.latest-blog-post-text {
+	margin: 5px 8px;
+	padding: 1px 5px;
+	font-size: 18px;
+}
+
+/* Subscribtion */
+.footer-box h4 {
+	color: #3195c9;
+	font-size: 18px;
+	position: relative;
+	width: 230px;
+} 
+
+#email {
+	width: 200px;
+	line-height: 2.5em;
+	border-radius: 3px;
+	border: none;
+	margin-right: 0;
+	padding-left: 8px;
+	/*position: relative;*/
+}
+
+#subscribe-submit {
+	background: #3aa6db;
+	border-radius: 3px;
+	border: none;
+	color: white;
+	line-height: 2.3em;
+	margin-left:-45px;
+	padding: 2px 10px;
+	position: absolute;
+}
+
+
+/* Social Icons Panel */
+.social-icons {
+	background-color: #3D3D3D;
+	padding: 10px;
+	width: 230px;
+}
+
+
+
+/* Footer Navigation */
+
+.footer-nav:before {
+	clear: both;
+	content:" ";
+	display:block;
+}
+
 .footer-nav {
-	margin-top: 100px;
 	margin-right: 0px;
+	font-size: 14px;
 }
 
 ul.footer-menu {
 	margin: 0px;
+	padding: 0px;
 }
 
 .footer-menu > li {
 	list-style: none;
 	margin: 0px;
-	display: inline;
+	display: inline-block;
 	color: white;
 }
 
@@ -480,20 +623,3 @@ ul.footer-menu {
 	color: white;
 	text-decoration: none;
 }
-
-
-/* Subscribtion */
-.footer-box h4 {
-	color: #3195c9;
-	font-size: 20px;
-} 
-
-/* Social Icons Panel */
-
-.social-icons {
-	background-color: #3D3D3D;
-	padding: 10px;
-	border-radius: 8px;
-	width: 200px;
-}
-
