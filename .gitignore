@@ -1,0 +1,4 @@
+.DS_Store
+.picasa.ini
+img/*.ini
+img/^.*
