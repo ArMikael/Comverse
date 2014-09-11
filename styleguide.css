@@ -422,12 +422,6 @@ ul.services {
 	height: 320px;
 }
 
-div.footer-box:after {
-	clear: both;
-	content:" ";
-	display:block;
-}
-
 .footer-links-column {
 	float: left;
 	margin-right: 60px;
@@ -507,6 +501,13 @@ div.footer-box:after {
 
 
 /* Footer Navigation */
+
+.footer-nav:before {
+	clear: both;
+	content:" ";
+	display:block;
+}
+
 .footer-nav {
 	margin-right: 0px;
 	font-size: 14px;
