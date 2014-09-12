@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Comverse</title>
+	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="styleguide.css">
 </head>
 <body>
@@ -22,7 +23,7 @@
 	            <div class="color-box2"></div>
 	            <figcaption>
 	            HEX 
-	            <span class="colour-hex">#F63D97</span>
+	            <span class="colour-hex">#f63d97</span>
 	            </figcaption>
 	         </figure>
 
@@ -64,7 +65,9 @@
 
 			<!-- Logo -->
 			<h3 class="style-block-header">Logo</h3>
-			<img src="img/logo.png" alt="logo">
+			<a id="brand" href="#">
+				<img src="img/logo.png" alt="logo">
+			</a>
 
 			<!-- Main Navigation -->
 			<h3 class="style-block-header">Main Navigation</h3>
@@ -89,7 +92,7 @@
 					<option value="Espaniol">ES</option>
 				</select>
 
-<!-- 				<ul class="language-dropdown">
+				<!-- 	<ul class="language-dropdown">
 					<li class="lang-drop-down-li">
 						<a href="#">EN</a>
 					</li>
@@ -128,34 +131,36 @@
 			<h2 class="style-block-header">Boxes</h2>
 
 			<h3 class="style-block-header">Text Boxes</h3>
-			<div class="color-text-box orange">
+			<div class="color-text-box orange-bg">
 				<h3 class="text-box-heading">Heading for Text Boxes</h3>
-				<p class="text-box-link">Click for More Info</p>
+				<p class="text-box-link">
+					<a href="#">Click for More Info</a>
+				</p>
 			</div>
 
-			<div class="color-text-box pink">
+			<div class="color-text-box pink-bg">
 				<h3 class="text-box-heading">Heading for Text Boxes</h3>
-				<p class="text-box-link">Click for More Info</p>
+				<p class="text-box-link">
+					<a href="#">Click for More Info</a>
+				</p>
 			</div>
 
-			<div class="color-text-box green">
+			<div class="color-text-box green-bg">
 				<h3 class="text-box-heading">Heading for Text Boxes</h3>
-				<p class="text-box-link">Click for More Info</p>
+				<p class="text-box-link">
+					<a href="#">Click for More Info</a>
+				</p>
 			</div>
 			
 			<h3 class="style-block-header">Services Boxes</h3>
 			<ul class="services">
 				<li>
 					<a href="#">
-						<img src="img/hp_solution_icon_SMART_MONETIZATION.png" alt="">
-						<p>Data Monetization</p>
+						<p class="services-text">Data Monetization</p>
 					</a>
 				</li>
 				<li>
-					<a href="#"><img src="img/hp_solution_icon_OPTIMIZATION_EFFICIENCY.png" alt="">
-						<p>Over-the-top</p>
-						<p>(OTT)</p>
-					</a>
+					<a href="#"></a>
 				</li>
 				<li>
 					<a href="#"></a>

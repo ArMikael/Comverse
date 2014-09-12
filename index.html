@@ -7,58 +7,99 @@
 </head>
 <body>
 	<div class="content">
-		
+			<a id="brand" href="#">
+				<img src="img/logo.png" alt="logo">
+			</a>
 		<!-- Slides Carousel -->
 			<section class="slides-carousel">
-				<ul class="carousel-controls">
-					<li>
+				<ol class="carousel-nav">
+					<li class="carousel-control-first">
 						<a href="#"></a>
 					</li>
-					<li>
+					<li class="carousel-control-second">
 						<a href="#"></a>
 					</li>
-					<li>
+					<li class="carousel-control-third">
 						<a href="#"></a>
 					</li>
-					<li>
+					<li class="carousel-control-fourth">
 						<a href="#"></a>
 					</li>
-					<li>
+					<li class="carousel-control-fifth">
 						<a href="#"></a>
 					</li>
-				</ul>
+				</ol>
 
-				<ul class="carousel-slides">
-					<li>
+				<ol class="carousel-slides">
+					<li class="carousel-slide-first">
+						<a href="#">
+							<h2>Digital Services</h2>
+							<button class="btn-blue main-btn">
+								<a href="#">Main Blue Button</a>
+							</button>
+							<img src="img/picture.jpg" alt="">
+						</a>
+					</li>
+					<li class="carousel-slide-second">
 						<a href="#">
 							<img src="img/picture.jpg" alt="">
 						</a>
 					</li>
-					<li>
+					<li class="carousel-slide-third">
 						<a href="#">
 							<img src="img/picture.jpg" alt="">
 						</a>
 					</li>
-					<li>
+					<li class="carousel-slide-fourth">
 						<a href="#">
 							<img src="img/picture.jpg" alt="">
 						</a>
 					</li>
-					<li>
+					<li class="carousel-slide-fifth">
 						<a href="#">
 							<img src="img/picture.jpg" alt="">
 						</a>
 					</li>
-					<li>
-						<a href="#">
-							<img src="img/picture.jpg" alt="">
-						</a>
-					</li>
-				</ul>
+				</ol>
 			</section>
 		</section>
+		
+		<section>
+			<ul class="services">
+				<li>
+					<a href="#">
+						<p class="services-text">Data Monetization</p>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<p class="services-text">Over-the-top</p>
+						<p>(OTT)</p>
+					</a>
+				</li>
+				<li>
+					<a href="#"></a>
+				</li>
+				<li>
+					<a href="#"></a>
+				</li>
+				<li>
+					<a href="#"></a>
+				</li>
+				<li>
+					<a href="#"></a>
+				</li>
+			</ul>
+		</section>
 
-		<footer>
+	<!-- Change this to Pseudo class footer:before -->
+	<div class="back-to-top">
+		<a href="#brand">
+			<img src="img/back_to_top.png" alt="">
+		</a>
+	</div>
+
+	<footer>
 			<div class="footer-block">
 				<div class="footer-links">
 					<div class="footer-links-column">
@@ -162,7 +203,7 @@
 					<form class="subscribe">
 						<h4>Subscribe to Comverse</h4>
 						<input type="email" id="email" value="ronit.klein@gmail.com">
-						<input type="submit" text="SIGN UP">
+						<input type="submit" id="subscribe-submit" value="SIGN UP" text="SIGN UP">
 					</form>
 
 					<div class="social-icons">
