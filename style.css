@@ -5,9 +5,9 @@ body {
 
 .content {
 	background-color: #e5e5e5;
+	box-shadow: 0px 10px 10px 0px grey;
 	margin: 0 auto;
 	padding: 5px 30px;
-	max-width: 1440px;
 	font-family: sans-serif;
 }
 
@@ -39,7 +39,9 @@ h4 {
 	margin: 10px 5px;
 }
 
-
+.brand {
+	border: none;
+}
 
 /* Main Navigtaton Menu */
 .main-nav {
@@ -54,7 +56,6 @@ h4 {
 }
 
 .main-nav li{
-	display: inline;
 	float: left;
 }
 
@@ -86,7 +87,6 @@ ul.language-dropdown {
 }
 
 li.language-dropdown-li {
-	display: inline;
 	float: left;
 }
 
@@ -209,7 +209,6 @@ input[type="search"] {
 	content: "";
 	background: url("img/btnArrow.png") no-repeat scroll right center;
 	margin-left: 5px;
-	display: block;
 	float: right;
 	width: 20px;
 	height: 20px;
@@ -236,6 +235,19 @@ input[type="search"] {
 	margin-bottom: 10px;
 }
 
+.color-text-box:hover {
+	opacity: 1;
+}
+
+.text-box-link > a {
+	text-decoration: none;
+	color: white;
+}
+
+.color-text-box:hover a {
+	text-decoration: underline;
+}
+
 .text-box-heading {
 	font-size: 24px;
 	text-transform: none;
@@ -257,7 +269,6 @@ input[type="search"] {
 p.text-box-link:before {
 	content: "";
 	background: url("img/colorBoxsIcon01.png") no-repeat scroll left center;
-	display: block;
 	float: left;
 	width: 30px;
 	height: 20px;
@@ -285,7 +296,6 @@ p.text-box-link:before {
 	padding: 2px;
 	box-shadow: 0px 1px 10px 0px grey;
 	float: left;	
-	display: inline-block;
 	margin: 8px 10px 0px 5px;
 }
 
@@ -335,7 +345,6 @@ ul.services {
 
 .services li {
 	background-color: #3195c9;
-	display: block;
 	float: left;
 	padding: 10px;
 	margin: 5px;
@@ -347,6 +356,74 @@ ul.services {
 	color: white;
 	font-weight: 300;
 	text-align: center;
+}
+
+/* Story Boxes */
+.story-box {
+	background: white;
+	color: grey; 
+	width: 340px;
+	height: 170px;
+	padding: 10px;
+}
+
+.person-face {
+	float:left;
+}
+
+/* Adding Quote Image to Text - doesn't work
+
+.story-box blockquote:before {
+	content: " ";
+	background: url("img/quote-grey.png") no-repeat 50% 50%;
+	width: 20px;
+	height: 20px;
+}*/
+
+.story-box blockquote {
+	font-size: 19px;
+	margin: 0 0 15px 110px;
+}
+
+.story-box blockquote:after {
+	content:" ";
+	clear:both;
+	display:block;
+}
+
+.person-details {
+	border-top: 1px solid #a0a0a0;
+}
+
+.person-name {
+	font-size: 16px;
+	color: #3195c9; 
+	margin: 5px 0;
+	float: left;
+}
+
+.person-role {
+	font-size: 14px;
+	color: grey; 
+	margin: 0;
+	float: left;
+	text-transform: none;
+}
+
+.client-logo {
+	background: url("img/3mob_logo_bw.jpg") no-repeat;
+	height: 45px;
+	width: 80px;
+	float: right;
+	outline:none;
+	max-width: 100%;
+	margin: 5px 0 0 0;
+}
+
+.person-details:after {
+	content:" ";
+	clear:both;
+	display:block;
 }
 
 
@@ -386,11 +463,10 @@ ul.services {
 /* Footer Side Box */
 .footer-box {
 	float: right;
-	background: #3D3D3D;
 }
 
 .footer-box-content {
-
+	background-color: #3D3D3D;
 	width: 230px;
 	color: white;
 }
@@ -400,7 +476,6 @@ ul.services {
 	height: 80px;
 	padding: 2px;
 	float: left;	
-	display: inline-block;
 	margin: 8px 10px 0px 5px;
 }
 
@@ -455,6 +530,7 @@ ul.services {
 
 /* Social Icons Panel */
 .social-icons {
+	background-color: #3D3D3D;
 	padding: 10px;
 	width: 230px;
 }
