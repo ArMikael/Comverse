@@ -106,51 +106,18 @@ li.language-dropdown-li > a {
 	text-decoration: none;
 }
 
-/*.search-box {
-	width: 200px;
-	border: none;
-}
-
-.search-box input[type="submit"] {
-	content: "";
-	background: url("img/searchBtn.png") no-repeat scroll center center;
-	float: right;
-	width: 30px;
-	height: 20px;
-	border: none;
-}
-
-.search-text {
-	background:url("img/divider.png") no-repeat scroll center right;
-	overflow: hidden;
-	width: 180px;
-	height: 3em;
-}
-
-.search-box input[type="text"] {
-	border-radius: 10px;
-	width: 100%;
-	display: block;
-	vertical-align: middle;
-}*/
-
- /*.search-box span:after {
-	content: "";
-	background: url("img/searchBtn.png") no-repeat scroll right center;
-	display: block;
-	float: right;
-	margin-left: 5px;
-	width: 20px;
-	height: 20px;
-}*/
+/* Logo Image */
 img[src="logo.png"] {
 	margin: 40px 0px;
 }
 
+
+/* Search Box */
 .search-box {
 	width: 260px; 
 	min-height: 20px;
 	border: none;
+	position: relative;
 }
 
 input[type="search"] {
@@ -158,34 +125,27 @@ input[type="search"] {
 	width: 220px;
 	height: 2em;
 	vertical-align: middle;
-	border-radius: 10px;
-	border: 1px solid grey;
+	border-radius: 5px;
+	border: 1px solid #d2d2d2;
 }
 
 .search-box input[type="submit"] {
 	background: url(img/searchBtn.png) no-repeat 50% 50%;
 	border: none;
-	float: right;
 	height: 20px;
 	width: 20px;
+	position: absolute;
+	left:196px;
 }
 
 .search-box .divider {
 	background: url(img/divider.png) no-repeat 50% 50%;
-	float: right;
 	height: 20px;
 	width: 20px;
 	border: none;
+	position: absolute;
+	left:182px;
 }
-
-
-
-
-
-
-/*.box > a[href=""]:before {
-	background-image: url(img/ico/more.png);	
-}*/
 
 
 /* Buttons */
