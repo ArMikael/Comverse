@@ -8,6 +8,7 @@ body {
 	box-shadow: 0px 10px 10px 0px grey;
 	margin: 10px 150px;
 	padding: 5px 30px;
+	font-family: sans-serif;
 }
 
 /* Headers */
@@ -36,6 +37,10 @@ h4 {
 	font: 36px Verdana, sans-serif;
 	text-transform: uppercase;
 	margin: 10px 5px;
+}
+
+.brand {
+	border: none;
 }
 
 .style-block-header {
@@ -117,7 +122,6 @@ figure {
 }
 
 .main-nav li{
-	display: inline;
 	float: left;
 }
 
@@ -149,7 +153,6 @@ ul.language-dropdown {
 }
 
 li.language-dropdown-li {
-	display: inline;
 	float: left;
 }
 
@@ -272,7 +275,6 @@ input[type="search"] {
 	content: "";
 	background: url("img/btnArrow.png") no-repeat scroll right center;
 	margin-left: 5px;
-	display: block;
 	float: right;
 	width: 20px;
 	height: 20px;
@@ -299,6 +301,19 @@ input[type="search"] {
 	margin-bottom: 10px;
 }
 
+.color-text-box:hover {
+	opacity: 1;
+}
+
+.text-box-link > a {
+	text-decoration: none;
+	color: white;
+}
+
+.color-text-box:hover a {
+	text-decoration: underline;
+}
+
 .text-box-heading {
 	font-size: 24px;
 	text-transform: none;
@@ -320,7 +335,6 @@ input[type="search"] {
 p.text-box-link:before {
 	content: "";
 	background: url("img/colorBoxsIcon01.png") no-repeat scroll left center;
-	display: block;
 	float: left;
 	width: 30px;
 	height: 20px;
@@ -348,7 +362,6 @@ p.text-box-link:before {
 	padding: 2px;
 	box-shadow: 0px 1px 10px 0px grey;
 	float: left;	
-	display: inline-block;
 	margin: 8px 10px 0px 5px;
 }
 
@@ -398,7 +411,6 @@ ul.services {
 
 .services li {
 	background-color: #3195c9;
-	display: block;
 	float: left;
 	padding: 10px;
 	margin: 5px;
@@ -453,7 +465,6 @@ ul.services {
 	font-size: 16px;
 	color: #3195c9; 
 	margin: 5px 0;
-	display: inline-block;
 	float: left;
 }
 
@@ -461,7 +472,6 @@ ul.services {
 	font-size: 14px;
 	color: grey; 
 	margin: 0;
-	display: inline-block;
 	float: left;
 	text-transform: none;
 }
@@ -532,7 +542,6 @@ ul.services {
 	height: 80px;
 	padding: 2px;
 	float: left;	
-	display: inline-block;
 	margin: 8px 10px 0px 5px;
 }
 
