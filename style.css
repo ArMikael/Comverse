@@ -39,7 +39,7 @@ h4 {
 	margin: 10px 5px;
 }
 
-.brand {
+#brand {
 	border: none;
 }
 
@@ -65,7 +65,7 @@ h4 {
 }
 
 .main-nav li a {
-	font-family: Tahoma, Geneva, sans-serif; 
+	font-family: sans-serif; 
 	text-decoration: none;
 	color: #a0a0a0; 
 	padding: 6px 10px 6px 10px
@@ -130,7 +130,7 @@ input[type="search"] {
 }
 
 .search-box input[type="submit"] {
-	background: url(img/searchBtn.png) no-repeat 50% 50%;
+	background: url("img/searchBtn.png") no-repeat 50% 50%;
 	border: none;
 	height: 20px;
 	width: 20px;
@@ -139,7 +139,7 @@ input[type="search"] {
 }
 
 .search-box .divider {
-	background: url(img/divider.png) no-repeat 50% 50%;
+	background: url("img/divider.png") no-repeat 50% 50%;
 	height: 20px;
 	width: 20px;
 	border: none;
@@ -213,21 +213,22 @@ input[type="search"] {
 	text-transform: none;
 }
 
-.orange {
+.orange-bg {
 	background-color: #F46F16;
 }
 
-.pink {
+.pink-bg {
 	background-color: #F63D97;
 }
 
-.green {
+.green-bg {
 	background-color: #6AC33C;
 }
 
 
 p.text-box-link:before {
-	content: "";
+	/* content: url("img/colorBoxsIcon01.png"); */
+	content: " ";
 	background: url("img/colorBoxsIcon01.png") no-repeat scroll left center;
 	float: left;
 	width: 30px;
@@ -407,6 +408,10 @@ ul.services {
 }
 
 
+.back-to-top {
+	margin-bottom: -4px;
+}
+
 /* ---- Footer ---- */
 
 /* Footer Links Panel */
@@ -493,7 +498,7 @@ ul.services {
 	border: none;
 	margin-right: 0;
 	padding-left: 8px;
-	/*position: relative;*/
+	color: grey;
 }
 
 #subscribe-submit {
