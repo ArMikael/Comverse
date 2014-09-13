@@ -40,20 +40,34 @@ h4 {
 	margin: 10px 5px;
 }
 
+/* =============================================================================================================
+													HEADER
+   ============================================================================================================= */
+
+.nav-panel {
+	background-color: #fff;
+	padding: 0; 
+	height: 90px;
+	width: 100%;
+	margin: 0;
+}
+
+.nav-panel:after {
+	content: " ";
+	display: block;
+	clear: both;
+}
+
 #brand {
 	border: none;
+	float: left;	
 }
 
 /* Main Navigtaton Menu */
 .main-nav {
 	list-style: none;
-}
-
-/* Clearfix */
-.main-nav:after {
-	content: " ";
-	display: block;
-	clear: both;
+	float: left;
+	padding-top: 50px;
 }
 
 .main-nav li{
@@ -80,6 +94,10 @@ h4 {
 .main-nav li a:hover, 
 .main-nav li a:active {
 	color: #2f95c8; 
+}
+
+.lang-login-search {
+	float: right;
 }
 
 ul.language-dropdown {
@@ -115,7 +133,7 @@ img[src="logo.png"] {
 
 /* Search Box */
 .search-box {
-	width: 260px; 
+	width: 240px; 
 	min-height: 20px;
 	border: none;
 	position: relative;
@@ -125,7 +143,7 @@ input[type="search"] {
 	outline: none;
 	width: 220px;
 	height: 2em;
-	vertical-align: middle;
+	/*vertical-align: middle;*/
 	border-radius: 5px;
 	border: 1px solid #d2d2d2;
 }
@@ -147,6 +165,12 @@ input[type="search"] {
 	position: absolute;
 	left:182px;
 }
+
+/*.search-box:after {
+	clear: both;
+	content: "";
+	display: block;
+}*/
 
 
 /* =============================================================================================================
