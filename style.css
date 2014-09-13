@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
 body {
 	background-color: #fff;
 	margin:0;
@@ -58,16 +60,24 @@ h4 {
 	clear: both;
 }
 
+/* Logo Image */
 #brand {
 	border: none;
 	float: left;	
+}
+
+#brand img[src="logo.png"] {
+	margin: 40px 0px;
 }
 
 /* Main Navigtaton Menu */
 .main-nav {
 	list-style: none;
 	float: left;
+	font: 12px "Open Sans";
 	padding-top: 50px;
+	text-transform: uppercase;
+	font-weight: 200;
 }
 
 .main-nav li{
@@ -98,6 +108,18 @@ h4 {
 
 .lang-login-search {
 	float: right;
+	margin: 16px 0 0 0;
+}
+
+.lang-login {
+	margin-bottom: 22px; 
+}
+
+#languageContainer {
+	border: none;
+	background: none;
+	outline: none;
+	font-size: 14px;
 }
 
 ul.language-dropdown {
@@ -125,10 +147,6 @@ li.language-dropdown-li > a {
 	text-decoration: none;
 }
 
-/* Logo Image */
-img[src="logo.png"] {
-	margin: 40px 0px;
-}
 
 
 /* Search Box */
@@ -141,9 +159,8 @@ img[src="logo.png"] {
 
 input[type="search"] {
 	outline: none;
-	width: 220px;
+	width: 180px;
 	height: 2em;
-	/*vertical-align: middle;*/
 	border-radius: 5px;
 	border: 1px solid #d2d2d2;
 }
@@ -154,7 +171,7 @@ input[type="search"] {
 	height: 20px;
 	width: 20px;
 	position: absolute;
-	left:196px;
+	left:156px;
 }
 
 .search-box .divider {
@@ -163,7 +180,7 @@ input[type="search"] {
 	width: 20px;
 	border: none;
 	position: absolute;
-	left:182px;
+	left:142px;
 }
 
 /*.search-box:after {
