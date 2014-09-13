@@ -9,6 +9,7 @@ body {
 	margin: 0 auto;
 	padding: 5px 30px;
 	font-family: sans-serif;
+	width:100%;
 }
 
 /* Headers */
@@ -448,10 +449,17 @@ ul.services {
 /* Footer Side Box */
 .footer-box {
 	float: right;
+	background-color: #3D3D3D;
 }
 
+.footer-box h4 {
+	color: #3195c9;
+	font-size: 18px;
+	position: relative;
+	width: 230px;
+} 
+
 .footer-box-content {
-	background-color: #3D3D3D;
 	width: 230px;
 	color: white;
 }
@@ -484,21 +492,19 @@ ul.services {
 }
 
 /* Subscribtion */
-.footer-box h4 {
-	color: #3195c9;
-	font-size: 18px;
+.subscribe {
 	position: relative;
-	width: 230px;
-} 
+}
 
 #email {
 	width: 200px;
 	line-height: 2.5em;
 	border-radius: 3px;
 	border: none;
-	margin-right: 0;
+	margin: 0 5px;
 	padding-left: 8px;
 	color: grey;
+	outline:none;
 }
 
 #subscribe-submit {
@@ -510,12 +516,12 @@ ul.services {
 	margin-left:-45px;
 	padding: 2px 10px;
 	position: absolute;
+	top: 52px;
 }
 
 
 /* Social Icons Panel */
 .social-icons {
-	background-color: #3D3D3D;
 	padding: 10px;
 	width: 230px;
 }
