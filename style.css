@@ -483,19 +483,28 @@ footer {
 	color: white;
 }
 
+.press-release {
+	border-bottom: 1px solid grey;
+}
+
+.press-release h4 {
+	padding: 16px 0;
+	margin: 0 6px;
+}
+
 .date-box-footer {
 	width: 60px;
-	height: 80px;
+	height: 70px;
 	padding: 2px;
 	float: left;	
-	margin: 8px 10px 0px 5px;
+	margin: 0 10px 0 5px;
 }
 
 .footer-date {
 	font-size: 54px;
-	margin: 0px;
+	margin: 0;
 	text-align: center;
-	line-height: 64px;
+	line-height: 56px;
 }
 
 .footer-month {
@@ -505,9 +514,13 @@ footer {
 }
 
 .latest-blog-post-text {
-	margin: 5px 8px;
-	padding: 1px 5px;
-	font-size: 18px;
+	margin: 0 8px;
+	padding: 6px 5px;
+	font-size: 17px;
+}
+
+.latest-blog-post-text p {
+	margin: 0 0 18px 0;
 }
 
 /* Subscribtion */
