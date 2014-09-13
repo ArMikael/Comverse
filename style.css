@@ -147,7 +147,6 @@ li.language-dropdown-li > a {
 }
 
 
-
 /* Search Box */
 .search-box {
 	width: 240px; 
@@ -192,6 +191,22 @@ input[type="search"] {
 /* =============================================================================================================
 													BODY
    ============================================================================================================= */
+
+.carousel {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.bg-image-wrapper {
+	width: 50%;
+	height: 200px;
+}
+
+.carousel-bg-image {
+	height: 400px;
+	box-shadow: 2px 0px 1px 0px rgba(0, 0, 0, 0.3);
+}
+
 
 /* Buttons */
 .btn-blue {
