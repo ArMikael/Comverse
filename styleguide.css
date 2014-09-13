@@ -3,8 +3,9 @@
 .content {
 	background-color: #e5e5e5;
 	box-shadow: 0px 10px 10px 0px grey;
-	margin: 10px 150px;
+	margin: 20px auto;
 	padding: 5px 30px;
+	width:76%;
 }
 
 .style-block-header {
@@ -83,4 +84,15 @@ figure {
 	background-color: #3D3D3D;
 	width: 230px;
 	color: white;
+}
+
+footer {
+	background-color: #2B2B2B;
+	padding: 0 20px; 
+	height: 320px;
+	width: 260px;
+}
+
+.footer-box {
+	float: none;
 }
