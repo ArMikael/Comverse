@@ -149,6 +149,10 @@ input[type="search"] {
 }
 
 
+/* =============================================================================================================
+													BODY
+   ============================================================================================================= */
+
 /* Buttons */
 .btn-blue {
 	background: #2f95c8;
@@ -410,22 +414,36 @@ ul.services {
 
 
 .back-to-top {
-	margin-bottom: -4px;
+	margin: 0 auto;
+	margin-bottom: -2px;
+	width: 100%;
+	max-width: 980px;
 }
 
-/* ---- Footer ---- */
+/* =============================================================================================================
+													FOOTER
+   ============================================================================================================= */
 
 /* Footer Links Panel */
-.footer-block {
+
+footer {
 	background-color: #2B2B2B;
-	padding: 10px;
+	padding: 0 20px; 
 	height: 320px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.footer-block {
+	max-width: 960px;
+	min-width: 800px;
+	width: 960px;
+	margin: 0 auto;
 }
 
 .footer-links-column {
 	float: left;
-	margin-right: 60px;
-
+	margin-right: 40px;
 }
 
 .footer-heading {
@@ -449,18 +467,19 @@ ul.services {
 /* Footer Side Box */
 .footer-box {
 	float: right;
-	background-color: #3D3D3D;
+	background-color: #3d3d3d;
+	width: 240px;
+	position: relative;
+	padding: 0 12px;
+	height: 320px;
 }
 
 .footer-box h4 {
 	color: #3195c9;
 	font-size: 18px;
-	position: relative;
-	width: 230px;
 } 
 
 .footer-box-content {
-	width: 230px;
 	color: white;
 }
 
@@ -539,6 +558,16 @@ ul.services {
 .footer-nav {
 	margin-right: 0px;
 	font-size: 14px;
+	width: 696px;
+	height: 20px;
+	float: left;
+	margin-top:58px;
+}
+
+.footer-nav:after {
+	clear: both;
+	content:" ";
+	display:block;
 }
 
 ul.footer-menu {
@@ -550,10 +579,10 @@ ul.footer-menu {
 	list-style: none;
 	margin: 0px;
 	display: inline-block;
-	color: white;
+	color: grey;
 }
 
 .footer-menu > li > a {
-	color: white;
+	color: grey;
 	text-decoration: none;
 }
