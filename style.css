@@ -193,17 +193,22 @@ input[type="search"] {
 
 /* Slides Carousel */
 .carousel-block {
+	color: white;
+	font-weight: 100;
+}
 
+.carousel-block h3 {
+	font-weight: 100;
+	margin: 10px 0;
 }
 
 .carousel {
 	width: 960px;
 	margin: 0 auto;
 	float: left;
-	left: 100px;
-	top:200px;
 	max-width: 960px;
 	padding-left: 200px;
+	position: relative;
 }
 
 .carousel:after {
@@ -213,7 +218,7 @@ input[type="search"] {
 }
 
 .bg-image-wrapper {
-	
+
 }
 
 .carousel-bg-image {
@@ -225,11 +230,18 @@ input[type="search"] {
 	padding: 0;
 }
 
-ol.carousel-nav, ol.carousel-slides {
+ol.carousel-nav {
 	padding: 0;
 	margin-top: 20px;
 	list-style: none;
+	position: absolute;
 	/*float: left;*/
+	bottom: -34px;
+	left: 240px;
+}
+
+ol.carousel-slides {
+	list-style: none;
 }
 
 .carousel-nav li {
