@@ -245,6 +245,7 @@ ol.carousel-nav, ol.carousel-slides {
 .carousel-nav li a {
 	width: 12px;
 	height: 12px;
+	display: inline-block;
 }
 
 
