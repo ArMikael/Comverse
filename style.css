@@ -307,19 +307,19 @@ ul.color-boxes {
 	margin: 0;
 	padding:0;
 	list-style: none;
-	margin-top:200px;
+	margin-top:100px;
 }
 
 .color-text-box {
-	width: 264px;
-	height: 175px;
-	padding: 5px 15px;
 	border-radius: 8px;
-	color: white;
-	opacity: 0.8;
 	box-shadow: 0px 3px 3px 0px grey;
-	margin-right: 25px;
+	color: white;
 	float: left;
+	height: 175px;
+	margin-right: 25px;
+	opacity: 0.9;
+	padding: 5px 15px;
+	width: 264px;
 }
 
 .color-text-box:hover {
@@ -336,7 +336,7 @@ ul.color-boxes {
 }
 
 .text-box-heading {
-	font-size: 24px;
+	font: 100 24px "Open Sans";
 	text-transform: none;
 }
 
