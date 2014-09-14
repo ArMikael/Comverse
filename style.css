@@ -44,6 +44,10 @@ h4 {
 													HEADER
    ============================================================================================================= */
 
+header {
+	box-shadow: 0 0 12px 0px rgba(0, 0, 0, 0.7);
+}
+
 .nav-panel {
 	background-color: #fff;
 	padding: 0; 
@@ -181,31 +185,68 @@ input[type="search"] {
 	left:142px;
 }
 
-/*.search-box:after {
-	clear: both;
-	content: "";
-	display: block;
-}*/
 
 
 /* =============================================================================================================
 													BODY
    ============================================================================================================= */
 
+/* Slides Carousel */
+.carousel-block {
+
+}
+
 .carousel {
 	width: 960px;
 	margin: 0 auto;
+	float: left;
+	left: 100px;
+	top:200px;
+	max-width: 960px;
+}
+
+.carousel:after {
+	clear: both;
+	display: block;
+	content: " ";
 }
 
 .bg-image-wrapper {
-	width: 50%;
-	height: 200px;
+
 }
 
 .carousel-bg-image {
-	height: 400px;
-	box-shadow: 2px 0px 1px 0px rgba(0, 0, 0, 0.3);
+	height: 700px;
+	position: center;
+	background: url(img/bckgrnd_ferriswheel_2500x639.jpg) no-repeat center;
+	margin: 0;
+	margin-top: -30px;
+	padding: 0;
 }
+
+ol.carousel-nav, ol.carousel-slides {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	/*float: left;*/
+}
+
+.carousel-nav li {
+	/*list-style: none;*/
+	width: 12px;
+	height: 12px;
+	background-color: #3d3d3d;
+	color: #e5e5e5;
+	float: left;
+	margin-left: 5px;
+	padding: 0;
+}
+
+.carousel-nav li a {
+	width: 12px;
+	height: 12px;
+}
+
 
 
 /* Buttons */
