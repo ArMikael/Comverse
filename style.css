@@ -203,6 +203,7 @@ input[type="search"] {
 	left: 100px;
 	top:200px;
 	max-width: 960px;
+	padding-left: 200px;
 }
 
 .carousel:after {
@@ -212,7 +213,7 @@ input[type="search"] {
 }
 
 .bg-image-wrapper {
-
+	
 }
 
 .carousel-bg-image {
@@ -509,6 +510,17 @@ ul.services {
 	display:block;
 }
 
+
+/* Success Stories */
+.success-stories {
+	background-color: grey;
+}
+
+.story-box:hover img,
+.story-box:active img{
+	/*color: green;*/
+	display: none;
+}
 
 .back-to-top {
 	margin: 0 auto;
