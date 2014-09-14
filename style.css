@@ -322,16 +322,20 @@ ul.color-boxes {
 	width: 264px;
 }
 
+.color-text-box a {
+	text-decoration: none;
+}
+
 .color-text-box:hover {
 	opacity: 1;
 }
 
-.text-box-link > a {
+.text-box-link {
 	text-decoration: none;
 	color: white;
 }
 
-.color-text-box:hover a {
+.color-text-box:hover .text-box-link {
 	text-decoration: underline;
 }
 
