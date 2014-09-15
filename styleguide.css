@@ -72,6 +72,19 @@ figure {
 	overflow: hidden;
 }
 
+/* Removing floats for logo, main navigation menu, languages and search box that defined in style.css */
+#brand, .lang-login-search, .main-nav {
+	float: none;
+	margin:0;
+	padding: 10px;
+}
+
+.color-text-box {
+	margin-bottom: 30px;
+}
+
+
+
 /* Social Icons Panel for Style Guide */
 .social-icons {
 	background-color: #3D3D3D;
@@ -91,7 +104,7 @@ footer {
 	padding: 0 20px; 
 	height: 320px;
 	width: 260px;
-	margin: 0;
+	margin-bottom: 30px;
 }
 
 .footer-box {
