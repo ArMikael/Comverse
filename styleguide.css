@@ -79,10 +79,18 @@ figure {
 	padding: 10px;
 }
 
+ul.color-boxes {
+	margin-top: 0;
+}
+
 .color-text-box {
+	height: 175px;
 	margin-bottom: 30px;
 }
 
+.text-box-heading {
+	height: 100px;
+}
 
 
 /* Social Icons Panel for Style Guide */
