@@ -236,7 +236,7 @@ ol.carousel-nav {
 	list-style: none;
 	position: absolute;
 	/*float: left;*/
-	bottom: -34px;
+	bottom: 234px;
 	left: 240px;
 }
 
@@ -380,6 +380,63 @@ p.text-box-link:before {
 	padding-right: 5px;
 }
 
+/* Services Block */
+
+.services-block {
+	display: block;
+	height: 400px;
+	background-color: #48ADD4;
+}
+
+.services-block h2 {
+	/*margin-top: 0px;*/
+	padding-top: 20px;
+}
+
+.services {
+	width: 960px;
+	margin: 0 auto;
+}
+
+ul.services-list {
+	list-style: none;
+	display: inline-block;
+
+}
+
+.services-list p.services-text:before {
+	background: url("img/hp_solution_icon_SMART_MONETIZATION.png") no-repeat 50% 50%;
+	content: " ";
+	display: block;
+	height:50px;
+	width: 115px;
+	margin-bottom: 10px;
+}
+
+.services-list p.services-text:hover:before {
+	background: url("img/hp_solution_icon_SMART_MONETIZATION_hover.png") no-repeat 50% 50%;
+	content: " ";
+	display: block;
+	height:50px;
+	width: 115px;
+	margin-bottom: 10px;
+}
+
+.services-list li {
+	background-color: #3195c9;
+	border-radius: 8px;
+	float: left;
+	margin: 5px;
+	padding: 10px;
+}
+
+.services-list li a {
+	text-decoration: none;
+	color: white;
+	font-weight: 300;
+	text-align: center;
+}
+
 /* Event Box */
 .event-box-content {
 	width: 280px;
@@ -441,47 +498,6 @@ p.text-box-link:before {
 	margin-right: 5px;
 }
 
-
-/* Services Block*/
-
-ul.services {
-	list-style: none;
-	display: inline-block
-
-}
-
-.services p:before {
-	background: url("img/hp_solution_icon_SMART_MONETIZATION.png") no-repeat 50% 50%;
-	content: " ";
-	display: block;
-	height:50px;
-	width: 115px;
-	margin-bottom: 10px;
-}
-
-.services p:hover:before {
-	background: url("img/hp_solution_icon_SMART_MONETIZATION_hover.png") no-repeat 50% 50%;
-	content: " ";
-	display: block;
-	height:50px;
-	width: 115px;
-	margin-bottom: 10px;
-}
-
-.services li {
-	background-color: #3195c9;
-	border-radius: 8px;
-	float: left;
-	margin: 5px;
-	padding: 10px;
-}
-
-.services li a {
-	text-decoration: none;
-	color: white;
-	font-weight: 300;
-	text-align: center;
-}
 
 /* Story Boxes */
 
