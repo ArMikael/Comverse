@@ -269,35 +269,48 @@ ol.carousel-slides {
 
 /* Buttons */
 .btn-blue {
-	background: #2f95c8;
+	background: #3399CC;
 	border-radius: 5px;
-	border: 1px solid grey;
-	box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.5);
 	display: block;
-	height: 3em;
+	height: 2em;
 	margin-bottom: 5px;
-}
-
-.btn-blue a {
-	color: white;
-	font-size: 1.6em;
+	width: 160px;
 	text-decoration: none;
 }
 
-.btn-blue a:after {
-	content: "";
-	background: url("img/btnArrow.png") no-repeat scroll right center;
-	margin-left: 5px;
-	float: right;
-	width: 20px;
-	height: 20px;
+.btn-blue:hover {
+	background: #17a4ea;
 }
 
-.main-btn a:after {
-	margin-left: 30px;
+.btn-blue span {
+	color: white;
+	font-size: 1em;
+	line-height: 2em;
+	margin-left: 10px;
+	font-weight: 200;
+
+}
+
+.btn-blue span:after {
+	content: "";
+	background: url("img/btnArrow.png") no-repeat scroll right center;
+	margin: 0 10px 0 5px;
+	float: right;
+	width: 20px;
+	height: 30px;
+}
+
+.main-btn span {
+
+}
+
+.main-btn > span:after {
+	/*margin-left: 50px;*/
 }
 
 .main-btn {
+	width: 200px;
 	text-transform: uppercase;
 }
 
