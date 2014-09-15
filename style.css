@@ -484,6 +484,12 @@ ul.services {
 }
 
 /* Story Boxes */
+
+.success-stories {
+	background-color: grey;
+	padding: 10px;
+}
+
 .story-box {
 	background: white;
 	color: grey; 
@@ -564,6 +570,7 @@ ul.services {
 	margin: 0;
 	float: left;
 	text-transform: none;
+	width: 140px;
 }
 
 .client-logo {
@@ -581,13 +588,6 @@ ul.services {
 	clear:both;
 	display:block;
 }
-
-
-/* Success Stories */
-.success-stories {
-	background-color: grey;
-}
-
 
 .back-to-top {
 	margin: 0 auto;
