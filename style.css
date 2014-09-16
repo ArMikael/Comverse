@@ -456,6 +456,11 @@ ul.services-list {
 	margin: 0 auto;
 }
 
+.event-box {
+	display: inline-block;
+	margin-left:20px;
+}
+
 .event-box-content {
 	width: 280px;
 	height: 100px;
@@ -463,6 +468,7 @@ ul.services-list {
 	padding: 5px;
 	border-radius: 3px;
 	box-shadow: 0px 3px 3px 0px grey;
+	float: left;
 }
 
 .event-box-content:hover {
@@ -502,7 +508,6 @@ ul.services-list {
 
 .all-events-link > a {
 	color: white;
-	clear: both;
 	text-decoration: none;
 }
 
@@ -515,6 +520,7 @@ ul.services-list {
 	width: 20px;
 	margin-right: 5px;
 }
+
 
 
 /* Story Boxes */
