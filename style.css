@@ -30,6 +30,8 @@ h2 {
 	font: 100 4.4rem "Open Sans", sans-serif;
 	text-align: center;
 	text-transform: uppercase;
+	padding: 40px 0;
+	margin: 0px;
 }
 
 h3 {
@@ -395,11 +397,6 @@ p.text-box-link:before {
 	background-color: #48ADD4;
 }
 
-.services-block h2 {
-	margin: 0px;
-	padding: 40px 0;
-}
-
 .services {
 	width: 960px;
 	margin: 0 auto;
@@ -449,6 +446,16 @@ ul.services-list {
 
 
 /* Event Box */
+.events-block {
+	background: url("img/events_bg_pic.jpg") no-repeat center center;
+	height: 420px;	
+}
+
+.events {
+	width:960px;
+	margin: 0 auto;
+}
+
 .event-box-content {
 	width: 280px;
 	height: 100px;
@@ -512,18 +519,75 @@ ul.services-list {
 
 /* Story Boxes */
 
-.success-stories {
-	background-color: grey;
+.stories-block {
+	background-color: #ECECEC;
+	height: 500px;
 	padding: 10px;
+	position: relative;
+}
+
+.stories-block h2 {
+	color: #565656;
+}
+
+.story-column1, .story-column2, {
+	width: 342px;
+	/*display: inline-block;*/
+	float: left;
+}
+
+.story-column3 {
+	width: 200px;
+	/*display: inline-block;*/
+	float: right;
+}
+
+.story-column3:after {
+	clear: both;
+	content: "";
+	display: block;
+}
+
+.success-stories {
+	width: 960px;
+	margin: 0 auto;
 }
 
 .story-box {
 	background: white;
 	color: grey; 
-	width: 340px;
+	width: 332px;
 	height: 170px;
 	padding: 10px;
 	position: relative;
+	display: inline-block;
+}
+
+.story-logo-box {
+	height: 94px;
+	width: 107px;
+	background-color: white;
+	/*display: inline-block;*/
+	margin: 11px 11px 0 0;
+	float: left;
+	position: relative;
+}
+
+.back-logo-img {
+	display: hidden;
+	left: 0;
+	position: absolute;
+	top: 0;
+	z-index: -100;
+}
+
+.story-logo-box:hover .back-logo-img {
+	background: url("img/logo_box_bg.jpg") no-repeat center center;
+	content: " ";
+	display: block;
+	height: 94px;
+	width: 107px;
+	z-index: 100;
 }
 
 .back-hover-text {
@@ -539,10 +603,10 @@ ul.services-list {
 
 .story-box:hover .back-hover-text {
 	display: block;
-	width: 340px;
+	width: 332px;
 	height: 170px;
 	padding: 10px;
-	content: "Heelo";
+	content: " ";
 	z-index: 100;
 }
 
@@ -618,9 +682,11 @@ ul.services-list {
 
 .back-to-top {
 	margin: 0 auto;
-	margin-bottom: -4px;
 	width: 960px;
 	max-width: 980px;
+	position: absolute;
+	bottom: -4px;
+	left:200px;
 }
 
 /* =============================================================================================================
