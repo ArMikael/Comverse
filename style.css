@@ -27,14 +27,14 @@ h1 {
 
 h2 {
 	color: white;
-	font: 50px Verdana, sans-serif;
+	font: 100 4.4rem "Open Sans", sans-serif;
 	text-align: center;
 	text-transform: uppercase;
 }
 
 h3 {
 	color: white;	
-	font: 42px Verdana, sans-serif;
+	font: 40px Verdana, sans-serif;
 	text-transform: uppercase;
 }
 
@@ -279,9 +279,9 @@ ol.carousel-slides {
 	box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.5);
 	display: block;
 	height: 3rem;
-	margin-bottom: 5px;
-	width: 160px;
+	width: 170px;
 	text-decoration: none;
+	margin: 0 auto;
 }
 
 .btn-blue:hover {
@@ -317,6 +317,7 @@ ol.carousel-slides {
 .main-btn {
 	width: 200px;
 	text-transform: uppercase;
+	margin: 0;
 }
 
 
@@ -390,13 +391,13 @@ p.text-box-link:before {
 
 .services-block {
 	display: block;
-	height: 400px;
+	height: 420px;
 	background-color: #48ADD4;
 }
 
 .services-block h2 {
-	/*margin-top: 0px;*/
-	padding-top: 20px;
+	margin: 0px;
+	padding: 40px 0;
 }
 
 .services {
@@ -406,42 +407,46 @@ p.text-box-link:before {
 
 ul.services-list {
 	list-style: none;
-	display: inline-block;
-
+	display: inline-block;	
+	padding: 0 0 50px 0;
+	height: 150px;
+	margin-top:0;
+	margin-bottom: 0;
+}
+.services-list li {
+	border-radius: 8px;
+	float: left;
+	width: 160px;
 }
 
 .services-list p.services-text:before {
 	background: url("img/hp_solution_icon_SMART_MONETIZATION.png") no-repeat 50% 50%;
 	content: " ";
 	display: block;
-	height:50px;
-	width: 115px;
-	margin-bottom: 10px;
+	height:100px;
+	width: 160px;
 }
 
 .services-list p.services-text:hover:before {
 	background: url("img/hp_solution_icon_SMART_MONETIZATION_hover.png") no-repeat 50% 50%;
 	content: " ";
 	display: block;
-	height:50px;
-	width: 115px;
-	margin-bottom: 10px;
+	height:100px;
+	width: 160px;
 }
-
-.services-list li {
-	background-color: #3195c9;
-	border-radius: 8px;
-	float: left;
-	margin: 5px;
-	padding: 10px;
-}
-
+ 
 .services-list li a {
 	text-decoration: none;
 	color: white;
 	font-weight: 300;
 	text-align: center;
 }
+
+.services-list p {
+	height: 40px;
+	width: 160px;
+}
+
 
 /* Event Box */
 .event-box-content {
