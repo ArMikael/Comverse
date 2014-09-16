@@ -47,6 +47,47 @@ h4 {
 	margin: 10px 5px;
 }
 
+
+/* Buttons */
+.btn-blue {
+	background: #3399CC;
+	border-radius: 5px;
+	box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.5);
+	display: block;
+	height: 3rem;
+	width: 170px;
+	text-decoration: none;
+	margin: 0 auto;
+}
+
+.btn-blue:hover {
+	background: #17a4ea;
+}
+
+.btn-blue span {
+	color: white;
+	font-size: 1.6rem;
+	line-height: 3rem;
+	margin-left: 10px;
+	font-weight: 200;
+
+}
+
+.btn-blue span:after {
+	content: "";
+	background: url("img/btnArrow.png") no-repeat scroll right center;
+	margin: 0 10px 0 5px;
+	float: right;
+	width: 20px;
+	height: 30px;
+}
+
+.main-btn {
+	width: 200px;
+	text-transform: uppercase;
+	margin: 0;
+}
+
 /* =============================================================================================================
 													HEADER
    ============================================================================================================= */
@@ -274,53 +315,6 @@ ol.carousel-slides {
 
 
 
-/* Buttons */
-.btn-blue {
-	background: #3399CC;
-	border-radius: 5px;
-	box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.5);
-	display: block;
-	height: 3rem;
-	width: 170px;
-	text-decoration: none;
-	margin: 0 auto;
-}
-
-.btn-blue:hover {
-	background: #17a4ea;
-}
-
-.btn-blue span {
-	color: white;
-	font-size: 1.6rem;
-	line-height: 3rem;
-	margin-left: 10px;
-	font-weight: 200;
-
-}
-
-.btn-blue span:after {
-	content: "";
-	background: url("img/btnArrow.png") no-repeat scroll right center;
-	margin: 0 10px 0 5px;
-	float: right;
-	width: 20px;
-	height: 30px;
-}
-
-.main-btn span {
-
-}
-
-.main-btn > span:after {
-	/*margin-left: 50px;*/
-}
-
-.main-btn {
-	width: 200px;
-	text-transform: uppercase;
-	margin: 0;
-}
 
 
 /* Color Boxes */
@@ -459,6 +453,8 @@ ul.services-list {
 .event-box {
 	display: inline-block;
 	margin-left:20px;
+	width: 300px;
+	height: 230px;
 }
 
 .event-box-content {

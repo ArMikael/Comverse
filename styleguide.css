@@ -72,6 +72,12 @@ figure {
 	overflow: hidden;
 }
 
+/* Reseting Buttons styles for Style Guide */
+
+.btn-blue {
+	margin: 20px 0 0 0;
+}
+
 /* Removing floats for logo, main navigation menu, languages and search box that defined in style.css */
 #brand, .lang-login-search, .main-nav {
 	float: none;
