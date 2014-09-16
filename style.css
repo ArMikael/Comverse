@@ -540,12 +540,6 @@ ul.services-list {
 	float: left;
 }
 
-.story-column3:after {
-	clear: both;
-	content: "";
-	display: block;
-}
-
 .success-stories {
 	width: 960px;
 	margin: 0 auto;
@@ -559,47 +553,6 @@ ul.services-list {
 	padding: 10px;
 	position: relative;
 	display: inline-block;
-}
-
-.no-img {
-	background: white;
-	color: grey; 
-	width: 226px;
-	height: 170px;
-	padding: 10px;
-	position: relative;
-	display: inline-block;
-}
-
-.story-logo-box{
-	height: 94px;
-	width: 107px;
-	background-color: white;
-	display: inline-block;
-	float: left;
-	position: relative;
-	margin: 10px 10px 0 0;
-}
-
-.logo3, .logo6 {
-	margin-right: 0;
-}
-
-.back-logo-img {
-	display: hidden;
-	left: 0;
-	position: absolute;
-	top: 0;
-	z-index: -100;
-}	
-
-.story-logo-box:hover .back-logo-img {
-	background: url("img/logo_box_bg.jpg") no-repeat center center;
-	content: " ";
-	display: block;
-	height: 94px;
-	width: 107px;
-	z-index: 100;
 }
 
 .back-hover-text {
@@ -622,13 +575,78 @@ ul.services-list {
 	z-index: 100;
 }
 
-.back-hover-text:before, .back-hover-text:after
+.back-hover-text:before, 
+.back-hover-text:after,
+.no-img-back-hover:before,
+.no-img-back-hover:after
 {
 	content: " ";
 	background: url("img/quote-blue.png") no-repeat 50% 50%;
 	display: inline-block;
 	width: 28px;
 	height: 25px;
+}
+
+.no-img {
+	background: white;
+	color: grey; 
+	width: 226px;
+	height: 170px;
+	padding: 10px;
+	position: relative;
+	display: inline-block;
+}
+
+.no-img-back-hover {
+	background: #3aa6db;
+	color: #fff;
+	display: hidden;
+	font:200 1.1em "Open Sans", sans-serif;
+	left: 0;
+	position: absolute;
+	top: 0;
+	z-index: -100;
+}
+
+.no-img:hover .no-img-back-hover{
+	display: block;
+	width: 226px;
+	height: 170px;
+	padding: 10px;
+	content: " ";
+	z-index: 100;
+}
+
+.story-logo-box{
+	height: 94px;
+	width: 107px;
+	background-color: white;
+	display: inline-block;
+	float: left;
+	position: relative;
+	margin: 10px 10px 0 0;
+}
+
+/* Removing margins from logo boxes in Success Stories */
+.logo3, .logo6 {
+	margin-right: 0;
+}
+
+.back-logo-img {
+	display: hidden;
+	left: 0;
+	position: absolute;
+	top: 0;
+	z-index: -100;
+}	
+
+.story-logo-box:hover .back-logo-img {
+	background: url("img/logo_box_bg.jpg") no-repeat center center;
+	content: " ";
+	display: block;
+	height: 94px;
+	width: 107px;
+	z-index: 100;
 }
 
 .person-face {
@@ -648,6 +666,11 @@ ul.services-list {
 .story-box blockquote {
 	font-size: 19px;
 	margin: 0 0 15px 110px;
+}
+
+.no-img blockquote {
+	font-size: 19px;
+	margin: 0 0 15px 10px;
 }
 
 .story-box blockquote:after {
