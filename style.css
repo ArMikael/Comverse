@@ -686,23 +686,23 @@ ul.services-list {
 }
 
 .person-details {
-	border-top: 1px solid #a0a0a0;
+	border-top: 1px solid #e5e5e5;
 }
 
 .person-name {
-	font-size: 16px;
+	font-size: 1.4rem;
 	color: #3195c9; 
 	margin: 5px 0;
 	float: left;
 }
 
 .person-role {
-	font-size: 14px;
+	font-size: 1.4rem;
 	color: grey; 
 	margin: 0;
 	float: left;
 	text-transform: none;
-	width: 140px;
+	width: 160px;
 }
 
 .client-logo {
