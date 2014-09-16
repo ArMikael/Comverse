@@ -533,13 +533,11 @@ ul.services-list {
 .story-column1, .story-column2 {
 	width: 352px;
 	float: left;
-	margin: 5px;
 }
 
 .story-column3 {
 	width: 200px;
 	float: left;
-	margin: 5px;
 }
 
 .story-column3:after {
@@ -563,14 +561,28 @@ ul.services-list {
 	display: inline-block;
 }
 
-.story-logo-box {
+.no-img {
+	background: white;
+	color: grey; 
+	width: 226px;
+	height: 170px;
+	padding: 10px;
+	position: relative;
+	display: inline-block;
+}
+
+.story-logo-box{
 	height: 94px;
 	width: 107px;
 	background-color: white;
 	display: inline-block;
-	margin: 10px 10px 0 0;
 	float: left;
 	position: relative;
+	margin: 10px 10px 0 0;
+}
+
+.logo3, .logo6 {
+	margin-right: 0;
 }
 
 .back-logo-img {
