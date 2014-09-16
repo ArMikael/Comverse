@@ -521,7 +521,7 @@ ul.services-list {
 
 .stories-block {
 	background-color: #ECECEC;
-	height: 500px;
+	height: 600px;
 	padding: 10px;
 	position: relative;
 }
@@ -530,16 +530,16 @@ ul.services-list {
 	color: #565656;
 }
 
-.story-column1, .story-column2, {
-	width: 342px;
-	/*display: inline-block;*/
+.story-column1, .story-column2 {
+	width: 352px;
 	float: left;
+	margin: 5px;
 }
 
 .story-column3 {
 	width: 200px;
-	/*display: inline-block;*/
-	float: right;
+	float: left;
+	margin: 5px;
 }
 
 .story-column3:after {
@@ -556,7 +556,7 @@ ul.services-list {
 .story-box {
 	background: white;
 	color: grey; 
-	width: 332px;
+	width: 322px;
 	height: 170px;
 	padding: 10px;
 	position: relative;
@@ -567,8 +567,8 @@ ul.services-list {
 	height: 94px;
 	width: 107px;
 	background-color: white;
-	/*display: inline-block;*/
-	margin: 11px 11px 0 0;
+	display: inline-block;
+	margin: 10px 10px 0 0;
 	float: left;
 	position: relative;
 }
@@ -579,7 +579,7 @@ ul.services-list {
 	position: absolute;
 	top: 0;
 	z-index: -100;
-}
+}	
 
 .story-logo-box:hover .back-logo-img {
 	background: url("img/logo_box_bg.jpg") no-repeat center center;
@@ -603,7 +603,7 @@ ul.services-list {
 
 .story-box:hover .back-hover-text {
 	display: block;
-	width: 332px;
+	width: 322px;
 	height: 170px;
 	padding: 10px;
 	content: " ";
