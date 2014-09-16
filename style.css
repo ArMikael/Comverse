@@ -7,7 +7,8 @@ html {
 body {
 	background-color: #fff;
 	margin:0;
-	font-size: 1.6rem;
+	/*font-size: 1.6rem;*/
+	font: 1.6rem "Open Sans", sans-serif;
 }
 
 .content {
@@ -34,13 +35,13 @@ h2 {
 
 h3 {
 	color: white;	
-	font: 40px Verdana, sans-serif;
+	font: 100 4rem "Open Sans", sans-serif;
 	text-transform: uppercase;
 }
 
 h4 {
 	color: white;
-	font: 36px Verdana, sans-serif;
+	font: 36px "Open Sans", sans-serif;
 	text-transform: uppercase;
 	margin: 10px 5px;
 }
@@ -701,21 +702,21 @@ footer {
 
 .date-box-footer {
 	width: 60px;
-	height: 70px;
+	height: 80px;
 	padding: 2px;
 	float: left;	
 	margin: 0 10px 0 5px;
 }
 
 .footer-date {
-	font-size: 54px;
+	font-size: 5rem;
 	margin: 0;
 	text-align: center;
-	line-height: 56px;
+	line-height: 5.2rem;
 }
 
 .footer-month {
-	font-size: 26px;
+	font-size: 2.6rem;
 	margin: 0px;
 	text-align: center;
 }
@@ -723,7 +724,8 @@ footer {
 .latest-blog-post-text {
 	margin: 0 8px;
 	padding: 6px 5px;
-	font-size: 17px;
+	font-size: 1.7rem;
+	font-weight: 100;
 }
 
 .latest-blog-post-text p {
@@ -755,7 +757,7 @@ footer {
 	margin-left:-45px;
 	padding: 2px 10px;
 	position: absolute;
-	top: 52px;
+	top: 32px;
 }
 
 
