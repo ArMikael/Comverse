@@ -129,22 +129,28 @@ header {
 	padding-top: 50px;
 	text-transform: uppercase;
 	font-weight: 200;
+	/*margin: 0;*/
 }
 
 .main-nav li{
 	float: left;
+	display: inline;
 }
 
-.main-nav li:not(:last-child):after {
+/*.main-nav li:not(:last-child):after {
 	content: "|";
 	color: #a0a0a0; 
-}
+	width: 10px;
+	height: 20px;
+}*/
 
 .main-nav li a {
+	display: block;
+	width: 110px;
 	font-family: sans-serif; 
 	text-decoration: none;
 	color: #a0a0a0; 
-	padding: 6px 10px 6px 10px
+	padding: 6px 4px 6px 4px;
 }
 
 .main-nav li a:link,
@@ -450,11 +456,19 @@ ul.services-list {
 	margin: 0 auto;
 }
 
-.event-box {
-	display: inline-block;
-	margin-left:20px;
+.event-container {
 	width: 290px;
 	height: 230px;
+	display: inline-block;
+	margin-left:20px;
+}
+
+.event-box {
+	display: inline-block;
+	width: 290px;
+	height: 110px;
+	text-decoration: none;
+	color: black;
 }
 
 .event-box-content {
@@ -498,16 +512,15 @@ ul.services-list {
 }
 
 .all-events-link {
+	display: block;
 	margin-top: 10px;
-	font-size: 18px;
-}
-
-.all-events-link > a {
+	font: 100 1.5rem "Open Sans";
 	color: white;
 	text-decoration: none;
+
 }
 
-.all-events-link > a:before {
+.all-events-link:before {
 	background: url("img/eventListIcon01.png") no-repeat 50% 50%;
 	content: "";
 	border: none;
