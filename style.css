@@ -652,28 +652,33 @@ ul.services-list {
 	width: 322px;
 	height: 170px;
 	padding: 10px;
-	position: relative;
+	position: absolute;
 	display: inline-block;
+	transition: top .3s;
+	top:0;
+	z-index: 2;
 }
 
 .back-hover-text {
 	background: #3aa6db;
 	color: #fff;
-	display: none;
 	font:200 1.1em "Open Sans", sans-serif;
-	left: 0;
+	padding: 10px;
 	position: absolute;
-	top: 0;
-	z-index: -100;
-}
-
-.story-box:hover .back-hover-text {
-	display: block;
 	width: 322px;
 	height: 170px;
-	padding: 10px;
-	content: " ";
-	z-index: 100;
+}
+
+.story-box-wrapper {
+	position: relative;
+	width: 342px;
+	height: 190px;
+	background: white;
+	float:left;
+}
+
+.story-box-wrapper:hover .story-box {
+	top: -190px;
 }
 
 .back-hover-text:before, 
@@ -692,29 +697,24 @@ ul.services-list {
 	background: white;
 	color: grey; 
 	width: 205px;
+	height: 190px;
+	position: relative;
+}
+
+.story-column3 .story-box {
+	width: 205px;
 	height: 170px;
 	padding: 10px;
-	position: relative;
-	display: inline-block;
 }
 
 .no-img-back-hover {
 	background: #3aa6db;
 	color: #fff;
-	display: hidden;
 	font:200 1.1em "Open Sans", sans-serif;
-	left: 0;
 	position: absolute;
-	top: 0;
-	z-index: -100;
-}
-
-.no-img:hover .no-img-back-hover{
-	display: block;
 	width: 205px;
 	height: 170px;
 	padding: 10px;
-	z-index: 3;
 }
 
 .story-logo-box-wrapper {
@@ -748,7 +748,6 @@ ul.services-list {
 	height: 94px;
 	position: absolute;
 	width: 107px;
-	z-index: 0;
 }	
 
 .story-logo-box-wrapper:hover .story-logo-box{
