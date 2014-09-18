@@ -370,6 +370,7 @@ input[type="search"] {
 	margin: 0;
 	margin-top: 1px;
 	padding: 0;
+	box-shadow: inset 0px 4px 10px -5px hsla(0, 0%, 26%, 0.5);
 }
 
 ol.carousel-nav {
@@ -481,6 +482,7 @@ p.text-box-link:before {
 	display: block;
 	height: 420px;
 	background-color: #48ADD4;
+	box-shadow: inset 0px 4px 10px -3px hsla(0, 0%, 26%, 0.5);
 }
 
 .services {
@@ -687,9 +689,19 @@ ul.services-list {
 
 .stories-block {
 	background-color: #ECECEC;
-	height: 600px;
+	height: 580px;
 	padding: 10px;
 	position: relative;
+	box-shadow: inset 0px 4px 10px -3px hsla(0, 0%, 26%, 0.5);
+}
+
+.success-stories {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.stories-block .btn-blue {
+	width: 210px;
 }
 
 .stories-block h2 {
@@ -704,11 +716,6 @@ ul.services-list {
 .story-column3 {
 	width: 224px;
 	float: left;
-}
-
-.success-stories {
-	width: 960px;
-	margin: 0 auto;
 }
 
 .story-box {
