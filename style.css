@@ -503,7 +503,6 @@ ul.services-list {
 }
 
 .services-list p.services-text:before {
-	background: url("img/hp_solution_icon_SMART_MONETIZATION.png") no-repeat 50% 50%;
 	content: " ";
 	display: block;
 	height:100px;
@@ -511,13 +510,68 @@ ul.services-list {
 }
 
 .services-list p.services-text:hover:before {
-	background: url("img/hp_solution_icon_SMART_MONETIZATION_hover.png") no-repeat 50% 50%;
 	content: " ";
 	display: block;
 	height:100px;
 	width: 160px;
 }
+
+.services-list p.service1:before {
+	background: url("img/services-analytics.png") no-repeat 50% 50%;
+
+}
+
+.services-list p.service1:hover:before {
+	background: url("img/services-analytics-blue.png") no-repeat 50% 50%;
+}
+
+
+.services-list p.service2:before {
+	background: url("img/services-candy.png") no-repeat 50% 50%;
+
+}
+
+.services-list p.service2:hover:before {
+	background: url("img/services-candy-blue.png") no-repeat 50% 50%;
+}
+
+.services-list p.service3:before {
+	background: url("img/hp_solution_icon_SMART_MONETIZATION.png") no-repeat 50% 50%;
+
+}
+
+.services-list p.service3:hover:before {
+	background: url("img/hp_solution_icon_SMART_MONETIZATION_hover.png") no-repeat 50% 50%;
+}
+
+.services-list p.service4:before {
+	background: url("img/services-optimization.png") no-repeat 50% 50%;
+
+}
+
+.services-list p.service4:hover:before {
+	background: url("img/services-optimization-blue.png") no-repeat 50% 50%;
+}
+
+.services-list p.service5:before {
+	background: url("img/services-key.png") no-repeat 50% 50%;
+
+}
+
+.services-list p.service5:hover:before {
+	background: url("img/services-key-blue.png") no-repeat 50% 50%;
+}
  
+.services-list p.service6:before {
+	background: url("img/services-buterfly.png") no-repeat 50% 50%;
+
+}
+
+.services-list p.service6:hover:before {
+	background: url("img/services-buterfly-blue.png") no-repeat 50% 50%;
+}
+
+
 .services-list li a {
 	text-decoration: none;
 	color: white;
