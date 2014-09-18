@@ -805,13 +805,56 @@ ul.services-list {
 }
 
 .client-logo {
-	background: url("img/3mob_logo_bw.jpg") no-repeat;
 	height: 45px;
 	width: 80px;
 	float: right;
 	outline:none;
 	max-width: 100%;
 	margin: 5px 0 0 0;
+}
+
+.sbox-logo1 {
+	background: url("img/cable_wireless_logo.jpg") no-repeat;
+}
+
+.sbox-logo2 {
+	background: url("img/jersey_telecom_logo.jpg") no-repeat;
+}
+
+.sbox-logo3 {
+	background: url("img/logo-multilinks.jpg") no-repeat;
+}
+
+.logo1 {
+	background: url("img/logo1-mts.jpg") no-repeat;
+}
+
+.logo2 {
+	background: url("img/logo2-tata-sky.jpg") no-repeat;
+}
+
+.logo3 {
+	background: url("img/logo3-upc.jpg") no-repeat;
+}
+
+.logo4 {
+	background: url("img/logo4-max-telecom.jpg") no-repeat;
+}
+
+.logo5 {
+	background: url("img/logo5-kiyvstar.jpg") no-repeat;
+}
+
+.logo6 {
+	background: url("img/logo6-videocon.jpg") no-repeat;
+}
+
+.logo7 {
+	background: url("img/logo7-3mob.jpg") no-repeat;
+}
+
+.logo8 {
+	background: url("img/logo8-play.jpg") no-repeat;
 }
 
 .person-details:after {
