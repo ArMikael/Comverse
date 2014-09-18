@@ -125,7 +125,7 @@ header {
 .main-nav {
 	list-style: none;
 	float: left;
-	font: 12px "Open Sans";
+	font: 1.2rem "Open Sans";
 	padding-top: 50px;
 	text-transform: uppercase;
 	font-weight: 200;
@@ -139,11 +139,12 @@ header {
 
 .main-nav > li a {
 	display: block;
-	width: 110px;
+	width: 120px;
 	font-family: sans-serif; 
 	text-decoration: none;
 	color: #a0a0a0; 
-	padding: 6px 4px 6px 4px;
+	padding: 6px 1px 6px 1px;
+	text-align: center;
 }
 
 .main-nav > li a:link,
@@ -159,7 +160,7 @@ header {
 .sub-nav {
 	background: #FCFCFC;
 	width: 920px;
-	height: 300px;
+	height: 240px;
 	display: none;
 	position: absolute;
 	left:-190px;
@@ -171,7 +172,7 @@ header {
 	margin: 0;
 	padding: 0;
 	position: absolute;
-	top:78px;
+	top:18px;
 	z-index: 1;
 }
 
@@ -180,7 +181,7 @@ header {
 	padding: 0;
 	position: absolute;
 	left: 240px;
-	top:78px;
+	top:18px;
 	z-index: 1;
 }
 
@@ -192,23 +193,41 @@ header {
 
 .sub-nav-left li a, 
 .sub-nav-right li a {
+	text-align: left;
 	list-style: none;
 	width: 220px;
 	height: 20px;
-	padding: 5px 10px; 
+	padding: 5px 30px; 
+	font-size: 1.4rem;
+	text-transform: none;
 }
 
 .nav-img {
 	width: 300px;
-	height: 200px;
+	height: 196px;
 	background: black;
 	display: none;
 	position: absolute;
 	z-index: 1;
 	left:530px;
-	top:40px;
+	top:18px;
 }
 
+.img1-ebook {
+	background: url("img/nav-menu-img1.jpg");
+}
+
+.img2-digital {
+	background: url("img/nav-menu-img2.jpg");
+}
+
+.img3-share {
+	background: url("img/nav-menu-img3.jpg");
+}
+
+.img4-numbers {
+	background: url("img/nav-menu-img4.jpg");
+}
 
 .main-nav > li:hover .sub-nav-left li,
 .main-nav > li:hover .sub-nav-right li,
