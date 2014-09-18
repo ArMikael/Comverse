@@ -141,7 +141,7 @@ header {
 	color: #a0a0a0; 
 	display: block;
 	font-family: sans-serif; 
-	padding: 6px 1px 2px 1px;
+	padding: 6px 3px 2px 3px;
 	text-align: center;
 	text-decoration: none;
 	width: 120px;
@@ -299,7 +299,7 @@ li.language-dropdown-li > a {
 
 /* Search Box */
 .search-box {
-	width: 240px; 
+	width: 220px; 
 	min-height: 20px;
 	border: none;
 	position: relative;
