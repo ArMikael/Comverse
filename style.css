@@ -714,44 +714,45 @@ ul.services-list {
 	width: 205px;
 	height: 170px;
 	padding: 10px;
-	content: " ";
-	z-index: 100;
+	z-index: 3;
 }
 
-.story-logo-box{
-	background-color: white;
-	display: inline-block;
-	float: left;
-	height: 94px;
-	margin: 10px 10px 0 0;
+.story-logo-box-wrapper {
 	position: relative;
 	width: 107px;
+	height: 94px;
+	margin: 10px 10px 0 0;
+	float: left;
+	background: url("img/logo_box_bg.jpg") no-repeat center center;
+}
+
+.story-logo-box {
+	background-color: white;
+	height: 94px;
+	position: absolute;
+	width: 107px;
+	top:0;
+	transition: top .3s;
 }
 
 /* Removing margins from logo boxes in Success Stories */
-.logo3, .logo6, .logo8 {
+.story-column3:last-child > div:last-child {
 	margin-right: 0;
 }
 
-.logo4, .logo5, .logo6 {
+.story-column2 .story-logo-box-wrapper {
 	margin: 0 10px 10px 0;
 }
 
 .back-logo-img {
-	display: none;
-	left: 0;
+	height: 94px;
 	position: absolute;
-	top: 0;
-	z-index: -100;
+	width: 107px;
+	z-index: 0;
 }	
 
-.story-logo-box:hover .back-logo-img {
-	background: url("img/logo_box_bg.jpg") no-repeat center center;
-	content: " ";
-	display: block;
-	height: 94px;
-	width: 107px;
-	z-index: 100;
+.story-logo-box-wrapper:hover .story-logo-box{
+	top: -94px;
 }
 
 .person-face {
