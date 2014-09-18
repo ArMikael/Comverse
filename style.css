@@ -536,12 +536,12 @@ ul.services-list {
 }
 
 .services-list p.service3:before {
-	background: url("img/hp_solution_icon_SMART_MONETIZATION.png") no-repeat 50% 50%;
+	background: url("img/services-monetization.png") no-repeat 50% 50%;
 
 }
 
 .services-list p.service3:hover:before {
-	background: url("img/hp_solution_icon_SMART_MONETIZATION_hover.png") no-repeat 50% 50%;
+	background: url("img/services-monetization-blue.png") no-repeat 50% 50%;
 }
 
 .services-list p.service4:before {
