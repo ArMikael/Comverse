@@ -661,13 +661,24 @@ ul.services-list {
 }
 
 .all-events-link:before {
-	background: url("img/eventListIcon01.png") no-repeat 50% 50%;
 	content: "";
 	border: none;
 	float: left;
 	height: 20px;
 	width: 20px;
 	margin-right: 5px;
+}
+
+.all-events:before {
+	background: url("img/eventListIcon01.png") no-repeat 50% 50%;
+}
+
+.all-news:before {
+	background: url("img/eventListIcon02.png") no-repeat 50% 50%;
+}
+
+.all-press-releases:before {
+	background: url("img/eventListIcon03.png") no-repeat 50% 50%;
 }
 
 
