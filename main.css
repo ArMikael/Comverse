@@ -698,7 +698,7 @@ ul.services-list {
 
 .stories-block {
 	background-color: #ECECEC;
-	height: 580px;
+	height: 530px;
 	padding: 10px;
 	position: relative;
 	box-shadow: inset 0px 4px 10px -3px hsla(0, 0%, 26%, 0.5);
@@ -711,6 +711,7 @@ ul.services-list {
 
 .stories-block .btn-blue {
 	width: 210px;
+	margin-top: 40px;
 }
 
 .stories-block h2 {
@@ -725,6 +726,12 @@ ul.services-list {
 .story-column3 {
 	width: 224px;
 	float: left;
+}
+
+.success-stories:after {
+	clear: both;
+	content: "";
+	display: block;
 }
 
 .story-box {
@@ -778,7 +785,7 @@ ul.services-list {
 .no-img {
 	background: white;
 	color: grey; 
-	width: 205px;
+	width: 224px;
 	height: 190px;
 	position: relative;
 }
@@ -819,8 +826,9 @@ ul.services-list {
 }
 
 /* Removing margins from logo boxes in Success Stories */
-.story-column3:last-child > div:last-child {
+div.story-column3 div:last-child {
 	margin-right: 0;
+	background-color: black;
 }
 
 .story-column2 .story-logo-box-wrapper {
