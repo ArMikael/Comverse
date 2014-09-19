@@ -208,6 +208,15 @@ header {
 	text-transform: none;
 }
 
+.nav-divider {
+	background: url("img/line_nav.png") repeat-y center center;
+	height: 240px;
+	width: 1px;
+	display: block;
+	position: absolute;
+	left: 520px;
+}
+
 .nav-img {
 	width: 300px;
 	height: 196px;
@@ -215,7 +224,7 @@ header {
 	display: none;
 	position: absolute;
 	z-index: 1;
-	left:530px;
+	left:570px;
 	top:18px;
 }
 

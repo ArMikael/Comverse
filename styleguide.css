@@ -72,6 +72,47 @@ figure {
 	overflow: hidden;
 }
 
+
+/* Main Navigation */
+
+.main-nav {
+ 	padding-top: 50px;		 	
+ 	text-transform: uppercase;		 	
+ 	font-weight: 200;		 	
+	margin: 0;	
+ }
+ 		 
+.main-nav li{		
+ 	float: left;		 	
+ 	display: inline;		 	
+ }		 
+ 		 
+.main-nav li:not(:last-child):after {
+	content: "|";		
+	color: #a0a0a0; 		
+	width: 10px;		
+	height: 20px;		
+}		
+
+.main-nav li a {		
+ 	display: block;		 	
+ 	width: 110px;		 	
+ 	font-family: sans-serif; 		 	
+ 	padding: 6px 4px 6px 4px;		 	
+ }		 
+ 		 
+.main-nav li a:link,		
+.main-nav li a:visited {		
+ 	color: #a0a0a0; 		 	
+ }		 }
+ 		 
+.main-nav li a:hover, 		
+.main-nav li a:active {		
+ 	color: #2f95c8; 		 	
+ }
+
+
+
 /* Reseting Buttons styles for Style Guide */
 
 .btn-blue {
