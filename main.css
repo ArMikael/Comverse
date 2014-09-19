@@ -277,7 +277,8 @@ header {
 	border: none;
 	background: none;
 	outline: none;
-	font-size: 14px;
+	font-size: 1.4rem;
+	color: #a0a0a0;
 }
 
 ul.language-dropdown {
@@ -301,8 +302,14 @@ li.language-dropdown-li > a {
 }
 
 .login-link {
-	color: grey;
+	font: 100 1.6rem "Open Sans";
+	color: #a0a0a0;
 	text-decoration: none;
+}
+
+.login-link:hover {
+	color: #2f95c8;
+	text-decoration: underline;
 }
 
 
