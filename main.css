@@ -735,7 +735,7 @@ ul.services-list {
 	padding: 10px;
 	position: absolute;
 	display: inline-block;
-	transition: top .3s;
+	transition: top .7s;
 	top:0;
 	z-index: 2;
 }
@@ -756,6 +756,7 @@ ul.services-list {
 	height: 190px;
 	background: white;
 	float:left;
+	overflow: hidden;
 }
 
 .story-box-wrapper:hover .story-box {
@@ -805,6 +806,7 @@ ul.services-list {
 	margin: 10px 10px 0 0;
 	float: left;
 	background: url("img/logo_box_bg.jpg") no-repeat center center;
+	overflow: hidden;
 }
 
 .story-logo-box {
@@ -813,7 +815,7 @@ ul.services-list {
 	position: absolute;
 	width: 107px;
 	top:0;
-	transition: top .3s;
+	transition: top .5s;
 }
 
 /* Removing margins from logo boxes in Success Stories */
