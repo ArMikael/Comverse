@@ -728,6 +728,12 @@ ul.services-list {
 	float: left;
 }
 
+.story-columns:after {
+	clear: both;
+	content: "";
+	display: block;
+}
+
 .success-stories:after {
 	clear: both;
 	content: "";
@@ -826,9 +832,8 @@ ul.services-list {
 }
 
 /* Removing margins from logo boxes in Success Stories */
-div.story-column3 div:last-child {
+.story-logo-box-wrapper:last-child {
 	margin-right: 0;
-	background-color: black;
 }
 
 .story-column2 .story-logo-box-wrapper {
@@ -955,13 +960,19 @@ div.story-column3 div:last-child {
 }
 
 .back-to-top {
-	margin: 0 auto;
-	width: 960px;
-	max-width: 980px;
 	position: absolute;
 	bottom: -4px;
 	left:200px;
 }
+
+.back-to-top a:before {
+	background: url("img/back_to_top.png") no-repeat center center;
+	width: 80px;
+	height: 39px;
+	content: "";
+	display: block;
+}
+
 
 /* =============================================================================================================
 													FOOTER
