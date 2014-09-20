@@ -387,8 +387,8 @@ input[type="search"] {
 
 .carousel-bg-image {
 	height: 550px;
-	position: center;
 	background: url(img/bckgrnd_ferriswheel_2500x639.jpg) no-repeat center;
+	background-attachment: fixed;
 	margin: 0;
 	margin-top: 1px;
 	padding: 0;
@@ -612,6 +612,7 @@ ul.services-list {
 /* Event Box */
 .events-block {
 	background: url("img/events_bg_pic.jpg") no-repeat center center;
+	background-attachment: fixed;
 	height: 420px;	
 }
 
