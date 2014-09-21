@@ -363,51 +363,47 @@ input[type="search"] {
 .carousel-block {
 	color: white;
 	font-weight: 100;
-}
-
-.carousel-block h3 {
-	font-weight: 100;
-	margin: 2px 0;
-}
-
-.carousel {
-	width: 960px;
-	margin: 0 auto;
-	float: left;
-	max-width: 960px;
-	padding-left: 200px;
-	position: relative;
-}
-
-.carousel:after {
-	clear: both;
-	display: block;
-	content: " ";
-}
-
-.carousel-bg-image {
 	height: 550px;
 	background: url(img/bckgrnd_ferriswheel_2500x639.jpg) no-repeat 50% 0;
 	background-attachment: fixed;
-	background-size: auto 84%;
+	background-size: auto 100%;
 	margin: 0;
 	margin-top: 1px;
 	padding: 0;
 	box-shadow: inset 0px 4px 10px -5px hsla(0, 0%, 26%, 0.5);
 }
 
+.carousel-block h2 {
+	font-weight: 100;
+	margin:0;
+	padding: 20px 0 0 0;
+	text-align: left;
+	line-height: 1em;
+}
+
+.carousel-block h3 {
+	font-weight: 100;
+}
+
+.carousel {
+	width: 960px;
+	margin: 0 auto;
+	position: relative;
+}	
+
 ol.carousel-nav {
 	padding: 0;
 	margin-top: 20px;
 	list-style: none;
 	position: absolute;
-	bottom: 210px;
-	left: 200px;
+	bottom: 250px;
+	left: 0;
 }
 
 ol.carousel-slides {
 	list-style: none;
 	padding-left: 0;
+	margin:0;
 }
 
 .carousel-slides ul {
@@ -442,23 +438,21 @@ ol.carousel-slides {
 
 
 
-
 /* Color Boxes */
 ul.color-boxes {
-	margin: 0;
+	margin: 120px 0 0 0;
 	padding:0;
 	list-style: none;
-	margin-top:80px;
 }
 
 .color-text-box {
 	border-radius: 8px;
 	box-shadow: 0px 3px 3px 0px grey;
 	color: white;
-	float: left;
-	margin-right: 25px;
+	display: inline-block;
+	margin-right: 20px;
 	opacity: 0.9;
-	padding: 5px 15px;
+	padding: 5px 14px;
 	width: 264px;
 }
 
@@ -481,9 +475,11 @@ p.text-box-link {
 }
 
 .text-box-heading {
-	font: 100 24px "Open Sans";
+	font: 100 2.4rem "Open Sans";
 	text-transform: none;
-	height: 120px;
+	height:120px;
+	padding:0;
+	margin:0;
 }
 
 .orange-bg {
