@@ -1234,9 +1234,42 @@ ul.footer-menu {
    ============================================================================================================= */
 
 @media all and (max-width:1004px) {
-/*	.nav-panel {
+	.nav-panel {
 		width: 780px;
-	}*/
+	}
+
+	.search-box {
+		width: 100px;
+		height: 34px;
+	}
+
+	input[type="search"] {
+		outline: none;
+		width: 100px;
+		height: 2em;
+		border-radius: 5px;
+		border: 1px solid #d2d2d2;
+	}
+
+	.search-box input[type="submit"] {
+		background: url("img/searchBtn.png") no-repeat 50% 50%;
+		background-size: 15px 15px;
+		border: none;
+		height: 20px;
+		width: 20px;
+		position: absolute;
+		left:2px;
+	}
+
+	.search-box .divider {
+		background: url("img/divider.png") no-repeat 50% 50%;
+		height: 20px;
+		width: 20px;
+		border: none;
+		position: absolute;
+		left:14px;
+	}
+
 }
 
 
