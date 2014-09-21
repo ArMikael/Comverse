@@ -387,8 +387,9 @@ input[type="search"] {
 
 .carousel-bg-image {
 	height: 550px;
-	background: url(img/bckgrnd_ferriswheel_2500x639.jpg) no-repeat center;
+	background: url(img/bckgrnd_ferriswheel_2500x639.jpg) no-repeat 50% 0;
 	background-attachment: fixed;
+	background-size: auto 84%;
 	margin: 0;
 	margin-top: 1px;
 	padding: 0;
@@ -1228,4 +1229,21 @@ ul.footer-menu {
 .footer-menu > li > a {
 	color: grey;
 	text-decoration: none;
+}
+
+
+
+/* =============================================================================================================
+						MEDIA QURIES FOR RESPONSIVE DESIGN
+   ============================================================================================================= */
+
+@media all and (max-width:1004px) {
+/*	.nav-panel {
+		width: 780px;
+	}*/
+}
+
+
+@media all and (max-width:767px) {
+	
 }
