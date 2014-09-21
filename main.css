@@ -400,12 +400,22 @@ ol.carousel-nav {
 	margin-top: 20px;
 	list-style: none;
 	position: absolute;
-	bottom: 234px;
-	left: 240px;
+	bottom: 210px;
+	left: 200px;
 }
 
 ol.carousel-slides {
 	list-style: none;
+	padding-left: 0;
+}
+
+.carousel-slides ul {
+	list-style-position: inside;
+	padding-left: 0;
+}
+
+.carousel-slides ul li {
+	margin-bottom: 4px;
 }
 
 .carousel-nav li {
@@ -437,7 +447,7 @@ ul.color-boxes {
 	margin: 0;
 	padding:0;
 	list-style: none;
-	margin-top:100px;
+	margin-top:80px;
 }
 
 .color-text-box {
@@ -611,8 +621,9 @@ ul.services-list {
 
 /* Event Box */
 .events-block {
-	background: url("img/events_bg_pic.jpg") no-repeat center center;
+	background: url("img/events_bg_pic.jpg") no-repeat 50% 0;
 	background-attachment: fixed;
+	background-size: auto 100%;
 	height: 420px;	
 }
 
