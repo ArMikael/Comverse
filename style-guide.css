@@ -95,6 +95,10 @@ figure {
 	color: #a0a0a0; 
 }
 
+.search-box {
+	float: none;	
+}
+
 .main-nav-style-guide  li a {
 	font-family: sans-serif; 
 	text-decoration: none;
