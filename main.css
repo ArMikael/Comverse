@@ -265,12 +265,13 @@ header {
 
 
 .lang-login-search {
-	float: right;
-	margin: 16px 0 0 0;
+/*	float: right;
+	margin: 16px 0 0 0;*/
 }
 
 .lang-login {
-	margin-bottom: 22px; 
+	float: right;
+	margin: 16px 0 22px 0; 
 }
 
 #languageContainer {
@@ -321,10 +322,12 @@ li.language-dropdown-li > a {
 
 /* Search Box */
 .search-box {
-	width: 220px; 
+	width: 180px; 
 	min-height: 20px;
 	border: none;
 	position: relative;
+	float: right;
+	margin: 0 0 15px 0; 
 }
 
 input[type="search"] {
@@ -1234,8 +1237,23 @@ ul.footer-menu {
    ============================================================================================================= */
 
 @media all and (max-width:1004px) {
+	#brand {
+		height: 75px;
+		width: 114px;
+		padding: 28px 0 0 0;
+	}
+
+	#brand img {
+		width: 109px;
+		height: 38px;
+	}
+
 	.nav-panel {
-		width: 780px;
+		width: 768px;
+	}
+
+	.main-nav {
+		padding: 50px 0 0 0;
 	}
 
 	.search-box {
@@ -1268,6 +1286,26 @@ ul.footer-menu {
 		border: none;
 		position: absolute;
 		left:14px;
+	}
+
+	.carousel-block {
+		width: 768px;
+		margin: 0 auto;
+		background-size: auto 100%;
+	}
+
+	ul.color-boxes {
+		width: 768px;
+	}
+
+	.color-boxes h3 {
+		font-size: 1.7rem;
+	}
+
+	.color-boxes li {
+		width: 191px;
+		margin-right: 0;
+		margin-left: 20px;
 	}
 
 }
