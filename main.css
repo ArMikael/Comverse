@@ -694,7 +694,10 @@ ul.services-list {
 	font: 100 1.5rem "Open Sans";
 	color: white;
 	text-decoration: none;
+}
 
+.all-events-link:hover {
+	-webkit-filter: brightness(0.45);
 }
 
 .all-events-link:before {
