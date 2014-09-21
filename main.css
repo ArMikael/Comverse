@@ -534,6 +534,7 @@ ul.services-list {
 	border-radius: 8px;
 	float: left;
 	width: 160px;
+	height: 160px;
 }
 
 .services-list p.services-text:before {
@@ -1070,6 +1071,12 @@ footer {
 
 .footer-box-content {
 	color: white;
+	display: block;
+	text-decoration: none;
+}
+
+.footer-box-content:hover {
+	text-decoration: underline;
 }
 
 .press-release {
@@ -1104,7 +1111,7 @@ footer {
 
 .latest-blog-post-text {
 	margin: 0 8px;
-	padding: 6px 5px;
+	padding: 1px 5px;
 	font-size: 1.7rem;
 	font-weight: 100;
 }
