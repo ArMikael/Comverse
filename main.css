@@ -1160,6 +1160,34 @@ footer {
 	bottom:0;
 }
 
+.soc-icon:hover {
+	-webkit-filter: brightness(0.45);
+}
+
+.ico-youtube:before {
+	background: url(img/shareMenuIcon01.png) no-repeat;
+	content: "";
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+}
+
+.ico-twitter:before {
+	background: url(img/shareMenuIcon02.png) no-repeat;
+	content: "";
+	display: inline-block;
+	width: 30px;
+	height: 22px;
+}
+
+.ico-linkedin:before {
+	background: url(img/shareMenuIcon03.png) no-repeat;
+	content: "";
+	display: inline-block;
+	width: 28px;
+	height: 22px;
+}
+
 
 
 /* Footer Navigation */
