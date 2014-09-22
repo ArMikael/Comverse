@@ -531,72 +531,72 @@ ul.services-list {
 	height: 160px;
 }
 
-.services-list p.services-text:before {
+.services-text:before {
 	content: " ";
 	display: block;
 	height:100px;
 	width: 160px;
 }
 
-.services-list p.services-text:hover:before {
+.services-text:hover:before {
 	content: " ";
 	display: block;
 	height:100px;
 	width: 160px;
 }
 
-.services-list p.service1:before {
+.service1:before {
 	background: url("img/services-analytics.png") no-repeat 50% 50%;
 
 }
 
-.services-list p.service1:hover:before {
+.service1:hover:before {
 	background: url("img/services-analytics-blue.png") no-repeat 50% 50%;
 }
 
 
-.services-list p.service2:before {
+.service2:before {
 	background: url("img/services-candy.png") no-repeat 50% 50%;
 
 }
 
-.services-list p.service2:hover:before {
+.service2:hover:before {
 	background: url("img/services-candy-blue.png") no-repeat 50% 50%;
 }
 
-.services-list p.service3:before {
+.service3:before {
 	background: url("img/services-monetization.png") no-repeat 50% 50%;
 
 }
 
-.services-list p.service3:hover:before {
+.service3:hover:before {
 	background: url("img/services-monetization-blue.png") no-repeat 50% 50%;
 }
 
-.services-list p.service4:before {
+.service4:before {
 	background: url("img/services-optimization.png") no-repeat 50% 50%;
 
 }
 
-.services-list p.service4:hover:before {
+.service4:hover:before {
 	background: url("img/services-optimization-blue.png") no-repeat 50% 50%;
 }
 
-.services-list p.service5:before {
+.service5:before {
 	background: url("img/services-key.png") no-repeat 50% 50%;
 
 }
 
-.services-list p.service5:hover:before {
+.service5:hover:before {
 	background: url("img/services-key-blue.png") no-repeat 50% 50%;
 }
  
-.services-list p.service6:before {
+.service6:before {
 	background: url("img/services-buterfly.png") no-repeat 50% 50%;
 
 }
 
-.services-list p.service6:hover:before {
+.service6:hover:before {
 	background: url("img/services-buterfly-blue.png") no-repeat 50% 50%;
 }
 
@@ -1231,7 +1231,7 @@ ul.footer-menu {
    ============================================================================================================= */
 
 @media all and (max-width:1004px) {
-	.carousel, .nav-panel {
+	.carousel, .nav-panel, .services {
 		width: 768px;
 		margin: 0 auto;
 		padding-left: 10px;
@@ -1285,12 +1285,15 @@ ul.footer-menu {
 		width: 100px;
 		height: 34px;
 		margin: 0;
+		position: absolute;
+		right: 40px;
+		top:58px;
 	}
 
 	input[type="search"] {
 		outline: none;
 		width: 100px;
-		height: 2em;
+		height: 2.5em;
 		border-radius: 5px;
 		border: 1px solid #d2d2d2;
 	}
@@ -1298,16 +1301,20 @@ ul.footer-menu {
 	.search-box input[type="submit"] {
 		background: url("img/searchBtn.png") no-repeat 50% 50%;
 		background-size: 15px 15px;
-		height: 20px;
+		height: 26px;
 		width: 20px;
 		left:2px;
 	}
 
 	.search-box .divider {
 		background: url("img/divider.png") no-repeat 50% 50%;
-		height: 20px;
+		height: 26px;
 		width: 20px;
 		left:14px;
+	}
+
+	ul.color-boxes {
+		margin:90px 0 0 0;
 	}
 
 	.color-boxes h3 {
@@ -1325,14 +1332,39 @@ ul.footer-menu {
 		margin-top: 20px;
 		list-style: none;
 		position: absolute;
-		bottom: 200px;
-		left: 0;
+		bottom: 224px;
+		left: 8px;
 	}
 
 	.carousel-block h2 {
 		padding-top: 40px;
 	}
 
+	.services-list {
+		margin-left: 10px;
+	}
+
+	.services-list li {
+		width: 80px;
+		margin-right: 46px;
+	}
+
+	p.services-text {
+		font-size: 1.4rem;
+		width: 80px;
+	}
+
+	.services-text:before {
+		width: 80px;
+		height: 50px;
+		background-size: 80px auto;
+	}
+	
+	.services-text:hover:before {
+		background-size: 80px auto;
+		width: 80px;
+		height: 50px;
+	}
 }
 
 
