@@ -811,7 +811,7 @@ ul.services-list {
 }
 
 .story-box-wrapper:hover .story-box {
-	top: -190px;
+	/*top: -190px;*/
 }
 
 .back-hover-text:before, 
@@ -909,7 +909,7 @@ ul.services-list {
 
 .no-img blockquote {
 	font-size: 19px;
-	margin: 0 0 15px 10px;
+	margin: 0 0 15px 8px;
 }
 
 .story-box blockquote:after {
@@ -1415,6 +1415,78 @@ ul.footer-menu {
 		line-height: 2.4rem;
 	}
 
+	.story-box-wrapper, .story-box, .back-hover-text {
+		width: 270px;
+		height: 170px;
+	}
+
+	.no-img, .no-img-back-hover {
+		width: 176px;
+		height: 190px;
+	}
+
+	.story-column1, .story-column2, .story-column3 {
+		width: 280px;
+	}
+
+
+	.person-face {
+		max-width: 74px;
+	}
+	
+	.story-box blockquote {
+		font: 100 1.4rem "Open Sans";
+		margin: 0 0 15px 84px;
+	}
+
+	.no-img blockquote {
+		margin: 0 0 15px 4px;
+		width: 158px;
+	}
+
+	.story-column3 .story-box {
+		width: 160px;
+		height: 150px;
+	}
+
+	/*.no-img-back-hover {
+		height: 150px;
+	}*/
+
+	.no-img .person-details {
+		width: 180px;
+	}
+
+	.sbox-logo3 {
+		display: none;
+	}
+
+	.back-hover-text {
+		font: 100 1.4rem "Open Sans";
+	}
+
+	.person-details {
+		width: 250px;
+	}
+
+	.person-name {
+		font-size: 1.2rem;
+		margin: 5px 0;
+	}
+
+	.person-role {
+		font-size: 1.2rem;
+		margin: 0;
+		width: 140px;
+	}
+
+	.client-logo {
+		height: 45px;
+		width: 80px;
+		max-width: 100%;
+		margin: 5px 0 0 0;
+	}
+
 	.back-to-top {
 		position: absolute;
 		bottom: -4px;
@@ -1426,6 +1498,11 @@ ul.footer-menu {
 		width: 40px;
 		height: 39px;
 	}*/
+
+	/*  =============================================== 
+			Media Query 1004px Footer
+		=============================================== */
+	
 
 	footer, .footer-box {
 		height: 50px;
