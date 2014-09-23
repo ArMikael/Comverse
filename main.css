@@ -1201,12 +1201,6 @@ footer {
 
 /* Footer Navigation */
 
-.footer-nav:before {
-	clear: both;
-	content:" ";
-	display:block;
-}
-
 .footer-nav {
 	margin-right: 0px;
 	font-size: 14px;
@@ -1214,12 +1208,7 @@ footer {
 	height: 20px;
 	float: left;
 	margin-top:58px;
-}
-
-.footer-nav:after {
-	clear: both;
-	content:" ";
-	display:block;
+	display: inline-block;
 }
 
 ul.footer-menu {
@@ -1237,6 +1226,12 @@ ul.footer-menu {
 .footer-menu > li > a {
 	color: grey;
 	text-decoration: none;
+}
+
+.subscribe-link > a {
+	display: none;
+	color: white;
+	margin-left: 0px;
 }
 
 
@@ -1419,6 +1414,62 @@ ul.footer-menu {
 		padding-top: 1px;
 		line-height: 2.4rem;
 	}
+
+	.back-to-top {
+		position: absolute;
+		bottom: -4px;
+		left:730px;
+	}
+
+	/*.back-to-top a:before {
+		background: url("img/back_to_top.png") no-repeat center center;
+		width: 40px;
+		height: 39px;
+	}*/
+
+	footer, .footer-box {
+		height: 50px;
+	}
+
+	.footer-links, .press-release, .subscribe  {
+		display: none;
+	}
+
+	.footer-box, .social-icons {
+		background-color: #2C2C2C;
+	}
+
+	.social-icons {
+		height: 20px;
+		padding: 0 0 22px 0;
+	}
+
+	.footer-nav {
+		margin-top: 14px;
+		margin-left: 20px;
+	}
+
+	li.contact-us > a {
+		display: none;
+	}
+
+	.footer-menu .subscribe-link > a {
+		display: inline-block;
+		color: white;
+	}
+
+/*	No way to add link to the pseudo-element
+	.footer-nav li:last-child:after {
+		margin-left: 6px;
+		content: "SUBSCRIBE TO COMVERSE";
+		display: inline-block;
+		width: 180px;
+		height: 20px;
+		color: white;
+		margin-top: 0;
+		margin-bottom: 0;
+	} */
+	
 
 }
 
