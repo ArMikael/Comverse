@@ -1241,7 +1241,7 @@ ul.footer-menu {
    ============================================================================================================= */
 
 @media all and (max-width:1004px) {
-	.carousel, .nav-panel, .services, .events, .success-stories {
+	.carousel, .nav-panel, .services, .events, .success-stories, .footer-block {
 		width: 768px;
 		margin: 0 auto;
 		/*padding-left: 10px;*/
@@ -1539,12 +1539,17 @@ ul.footer-menu {
 		height: 50px;
 	}
 
+	.footer-menu, .footer-nav {
+		width: 534px;
+	}
+
 	.footer-links, .press-release, .subscribe  {
 		display: none;
 	}
 
 	.footer-box, .social-icons {
 		background-color: #2C2C2C;
+		width: 150px;
 	}
 
 	.social-icons {
@@ -1555,6 +1560,7 @@ ul.footer-menu {
 	.footer-nav {
 		margin-top: 14px;
 		margin-left: 20px;
+		font-size: 1.2rem;
 	}
 
 	li.contact-us > a {
