@@ -1273,6 +1273,26 @@ ul.footer-menu {
 		display: inline-block;
 	}
 
+	.sub-nav {
+		top:30px;
+		height: 200px;
+		width: 700px;
+		left: 0;
+	}
+
+	.nav-divider {
+		left: 490px;
+		height: 200px;
+	}
+
+	.nav-img {
+		width: 170px;
+		height: 98px;
+		background-size: 170px 98px;
+		left:510px;
+		top:18px;
+	}
+
 	.lang-login {
 		font-size: 1rem;
 		position: absolute;
