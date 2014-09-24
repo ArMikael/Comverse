@@ -1241,7 +1241,7 @@ ul.footer-menu {
    ============================================================================================================= */
 
 @media all and (max-width:1004px) {
-	.carousel, .nav-panel, .services, .events {
+	.carousel, .nav-panel, .services, .events, .success-stories {
 		width: 768px;
 		margin: 0 auto;
 		/*padding-left: 10px;*/
@@ -1424,7 +1424,7 @@ ul.footer-menu {
 		width: 250px;
 	}
 
-	.story-column1, .story-column2, .story-column3 {
+	.story-column1, .story-column2 {
 		width: 280px;
 	}
 
@@ -1435,6 +1435,10 @@ ul.footer-menu {
 	.story-box blockquote {
 		font: 100 1.4rem "Open Sans";
 		margin: 0 0 15px 84px;
+	}
+
+	.story-column3 {
+		width: 190px;
 	}
 
 	.no-img {
@@ -1467,6 +1471,7 @@ ul.footer-menu {
 		display: none;
 	}
 
+
 	.back-hover-text {
 		font: 100 1.4rem "Open Sans";
 	}
@@ -1493,10 +1498,30 @@ ul.footer-menu {
 		margin: 5px 0 0 0;
 	}
 
+	.story-logo-box-wrapper, .story-logo-box, .back-logo-img {
+		width: 82px;
+		height: 72px;
+		background-size: 82px 72px;
+	}
+	
+	.story-logo-box-wrapper {
+		margin-right: 12px;
+	}
+
+	.stories-block .btn-blue {
+		width: 210px;
+		margin-top: 60px;
+	}
+
 	.back-to-top {
 		position: absolute;
-		bottom: -4px;
+		bottom: -6px;
 		left:730px;
+		
+	}
+
+	.back-to-top a:before {
+		background-size: 44px 26px;
 	}
 
 	/*.back-to-top a:before {
