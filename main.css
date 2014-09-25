@@ -88,6 +88,11 @@ h4 {
 	margin: 0;
 }
 
+/* Mobile Navigation Button */
+.btn-navbar {
+	display: none;
+}
+
 /* =============================================================================================================
 	HEADER
    ============================================================================================================= */
@@ -1609,5 +1614,82 @@ ul.footer-menu {
 
 
 @media all and (max-width:767px) {
-	
+	.main-nav, .lang-login, .divider, input[type="search"] {
+		display: none;
+	}
+
+	.carousel, 
+	.nav-panel, 
+	.services, 
+	.events, 
+	.success-stories,
+	.footer-block {
+		width: auto;
+		padding: 0;
+	}
+
+	.nav-panel {
+		height: 58px;
+	}
+
+	.btn-navbar {
+		display: block;
+		height: 38px;
+		width: 38px;
+		border: 1px solid #d9d9d9;
+		border-radius: 5px;
+		position: absolute;
+		top: 10px;
+		left: 10px;
+		text-decoration: none;
+		background: linear-gradient(to bottom, #f2f2f2 0%,#e5e5e5 100%);
+	}
+
+	.icon-bar {
+		display: block;
+		background-color: #a0a0a0;
+		width: 24px;
+		height: 3px;
+		margin: 0 auto;
+		margin-top: 10px;
+	}
+
+	.icon-bar:not(:first-child) {
+		margin-top: 2px;
+	}
+
+	.search-box input[type="submit"] {
+		background: url("img/searchBtnMobile.png") no-repeat 50% 50%, linear-gradient(to bottom, #f2f2f2 0%,#e5e5e5 100%);
+		height: 38px;
+		width: 38px;
+		border: 1px solid #d9d9d9;
+		border-radius: 5px;
+		position: static;
+		float: right;
+	}
+
+	form {
+		height: auto;
+	}
+
+	.search-box {
+		width: auto;
+		position: absolute;
+		right: 10px;
+		top: 10px;
+		margin: 0;
+	}
+
+	#brand {
+		min-width: 120px;
+		height: 58px;
+		margin: 0 auto;
+		float: none;
+		display: block;
+		padding: 5px 0 0 20px;
+	}
+
+	header {
+		position: relative;
+	}
 }
