@@ -419,6 +419,8 @@ ol.carousel-nav {
 	position: absolute;
 	bottom: 250px;
 	left: 0;
+	font-size: 1rem;
+	text-align: center;
 }
 
 ol.carousel-slides {
@@ -445,18 +447,13 @@ ol.carousel-slides {
 	margin-left: 5px;
 	padding: 0;
 	border-radius: 3px;
+	display: inline-block;
 }
 
 .carousel-nav li:hover {
 	background-color: #3399CC;
+	color: #3399CC;
 }
-
-.carousel-nav li a {
-	width: 12px;
-	height: 12px;
-	display: inline-block;
-}
-
 
 
 /* Color Boxes */
@@ -1647,6 +1644,10 @@ ul.footer-menu {
 		padding: 0;
 	}
 
+	.carousel-block {
+		height: auto;
+	}
+
 	header {
 		width: auto;
 		position: relative;
@@ -1730,6 +1731,11 @@ ul.footer-menu {
 		display: block;
 	}
 	
+	.carousel-block h3 {
+		font: 2.6em/30px Arial;
+		padding: 12px 0 8px;
+	}
+
 	.color-boxes li {
 		width: 100%;
 		display: block;
@@ -1758,8 +1764,32 @@ ul.footer-menu {
 		top: 50%;
 	}
 
-	.color-boxes h3 {
+	.color-boxes h2 {
 		font: 100 2rem "Open Sans";
+	}
+
+	ol.carousel-nav {
+		padding: 0;
+		margin-top: 20px;
+		list-style: decimal;
+		top: 100px;
+		left: 10px;
+		font-size: 1.6rem;
+		color: white;
+		line-height: 3rem;
+	}
+
+	.carousel-nav li {
+		width: 30px;
+		height: 30px;
+		margin-left: 5px;
+		padding: 0;
+		border-radius: 3px;
+		color: #565656;
+	}
+
+	.carousel-nav li:hover {
+		color: white;
 	}
 
 	p.text-box-link {
