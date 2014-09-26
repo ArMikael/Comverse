@@ -1731,9 +1731,15 @@ ul.footer-menu {
 		display: block;
 	}
 	
-	.carousel-block h3 {
-		font: 2.6em/30px Arial;
-		padding: 12px 0 8px;
+	.bg-wrapper {
+		background: url("img/weDoBG.png") repeat scroll 0 0 #3399cc;
+		padding: 8px 6px 2px 10px;
+		margin-bottom: 10px;
+	}
+
+	.carousel-block h2 {
+		font: 500 2.4rem "Open Sans";
+		padding:0;
 	}
 
 	.color-boxes li {
@@ -1772,7 +1778,7 @@ ul.footer-menu {
 		padding: 0;
 		margin-top: 20px;
 		list-style: decimal;
-		top: 100px;
+		top: 310px;
 		left: 10px;
 		font-size: 1.6rem;
 		color: white;
