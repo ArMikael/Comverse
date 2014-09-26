@@ -89,8 +89,17 @@ h4 {
 }
 
 /* Mobile Navigation Button */
-.btn-navbar {
+.btn-navbar, label {
 	display: none;
+}
+
+label {
+	width: 38px;
+	height: 38px;
+	background: url("img/searchBtnMobile.png") no-repeat 50% 50%, linear-gradient(to bottom, #f2f2f2 0%,#e5e5e5 100%);
+	border: 1px solid #d9d9d9;
+	border-radius: 5px;
+	float: right;
 }
 
 /* =============================================================================================================
@@ -327,6 +336,8 @@ li.language-dropdown-li > a {
 	position: relative;
 	float: right;
 	margin: 0 0 15px 0; 
+	display: block;
+	text-decoration: none;
 }
 
 input[type="search"] {
@@ -353,6 +364,14 @@ input[type="search"] {
 	border: none;
 	position: absolute;
 	left:142px;
+}
+
+.mob-search-bar {
+	display: none;
+	width: auto;
+	min-width: 320px;
+	position: absolute;
+	height: 48px;
 }
 
 
@@ -1628,6 +1647,15 @@ ul.footer-menu {
 		padding: 0;
 	}
 
+	header {
+		width: auto;
+		position: relative;
+	}
+
+	.main-nav {
+		position: static;
+	}
+
 	.nav-panel {
 		height: 58px;
 	}
@@ -1668,10 +1696,6 @@ ul.footer-menu {
 		float: right;
 	}
 
-	form {
-		height: auto;
-	}
-
 	.search-box {
 		width: auto;
 		position: absolute;
@@ -1689,7 +1713,65 @@ ul.footer-menu {
 		padding: 5px 0 0 20px;
 	}
 
-	header {
-		position: relative;
+	.btn-navbar:hover {
+
 	}
+
+	.search-box:active .mob-search-bar {
+		display: block;
+		top:50px;
+		left:-272px;
+		right:0;
+		background-color: white;
+		z-index: 2;
+	}
+
+	label {
+		display: block;
+	}
+	
+	.color-boxes li {
+		width: 100%;
+		display: block;
+		margin: 0 0 7px 0;
+		border-radius: 0;
+		position: relative;
+		box-sizing: border-box;
+	}
+	
+	.color-text-box {
+		opacity: 1;
+	}
+
+	.color-text-box:hover {
+		-webkit-filter: brightness(0.9);
+	}
+
+	.color-text-box a:after {
+		content: "";
+		display: block;
+		background: url(img/colorBoxsArrow.png);
+		width: 11px;
+		height: 17px;
+		position: absolute;
+		right: 10px;
+		top: 50%;
+	}
+
+	.color-boxes h3 {
+		font: 100 2rem "Open Sans";
+	}
+
+	p.text-box-link {
+		margin-bottom: 8px;
+	}
+
+	.services-list li {
+		width: 33%;
+	}
+
+	.story-column3 {
+		display: none;
+	}
+
 }
