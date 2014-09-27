@@ -782,6 +782,12 @@ ul.services-list {
 	float: left;
 }
 
+.story-column-hidden {
+	display: none;
+	width: 352px;
+	float: left;
+}
+
 .story-column3 {
 	width: 224px;
 	float: left;
@@ -1855,9 +1861,15 @@ ul.footer-menu {
 	.services-list li {
 		width: 33%;
 	}
-
+	
+	.story-column2, 
 	.story-column3 {
 		display: none;
+	}
+
+	.story-column-hidden {
+		display: block;
+		margin-top: 10px;
 	}
 
 }
