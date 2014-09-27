@@ -1913,10 +1913,14 @@ ul.footer-menu {
 		margin-top: 10px;
 	}
 
+	.stories-block .btn-blue {
+		margin: 30px auto 50px;
+	}
+
 
 
 	.back-to-top {
-		bottom: -6px;
+		bottom: -4px;
 		left:80%;		
 	}
 
@@ -1951,7 +1955,7 @@ ul.footer-menu {
 		display: block;
 		background-color: #2C2C2C;
 		margin-bottom: 16px;
-		margin: 10px 0 0 0;
+		margin: 0;
 		list-style: none;
 		padding-left: 0;
 		font-size: 1.2rem;
