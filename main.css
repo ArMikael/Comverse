@@ -1651,7 +1651,7 @@ ul.footer-menu {
 	}
 
 	.carousel-block, 
-	.services-block, 
+	.services,
 	.events-block, 
 	.stories-block {
 		height: auto;
@@ -1834,6 +1834,8 @@ ul.footer-menu {
 
 	h2, .events h4 {
 		font: 100 2.4rem "Open Sans", sans-serif;
+		padding-top: 10px;
+		padding-bottom: 16px;
 	}
 
 	.event-box-content {
@@ -1858,8 +1860,39 @@ ul.footer-menu {
 		font-weight: 300;
 	}
 
+	.services-block {
+		height: 380px;
+	}
+	
+	.services {
+		width: 100%;
+	}
+
+	.services .btn-blue {
+		/*margin-top: 100px;*/
+		display: none;
+	} 
+
+	.services-list {
+		width: 100%;
+		margin: 0 auto;
+	}
+
 	.services-list li {
 		width: 33%;
+		height: 130px;
+		margin-right: 0;
+	}
+
+	.services-text {
+		margin-left: auto;
+		margin-right: auto;
+		width: auto;
+	}
+
+	.services-text:before {
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 	.story-columns {
