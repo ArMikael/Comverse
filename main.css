@@ -1261,6 +1261,9 @@ ul.footer-menu {
 	margin-left: 0px;
 }
 
+.footer-nav-mobile {
+	display: none;
+}
 
 
 /* =============================================================================================================
@@ -1908,6 +1911,19 @@ ul.footer-menu {
 	.story-column-hidden {
 		display: block;
 		margin-top: 10px;
+	}
+
+	.footer-nav-mobile {
+		display: block;
+		background-color: #333333;
+	}
+
+	.footer-nav-mobile li {
+		
+	}
+
+	.footer-nav-mobile li:hover {
+		background-color: #BCBCBC;
 	}
 
 }
