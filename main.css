@@ -1913,13 +1913,34 @@ ul.footer-menu {
 		margin-top: 10px;
 	}
 
+
+	.footer-nav {
+		display: none;
+	}
+
 	.footer-nav-mobile {
 		display: block;
-		background-color: #333333;
+		background-color: #3d3d3d;
+		margin-bottom: 16px;
+		margin: 10px 0 0 0;
+		list-style: none;
+		padding-left: 0;
+	}
+	
+	.footer-box {
+		float: none;
+		width: auto;
+		background-color:#3d3d3d;
+	}
+
+	.social-icons {
+		position: static;
+		background-color: #3d3d3d;
 	}
 
 	.footer-nav-mobile li {
-		
+		color:white;
+		padding-left: 20px;
 	}
 
 	.footer-nav-mobile li:hover {
