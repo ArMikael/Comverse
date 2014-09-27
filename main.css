@@ -1617,7 +1617,7 @@ ul.footer-menu {
 		display: none;
 	}
 
-	.footer-menu .subscribe-link > a {
+	.subscribe-link > a {
 		display: inline-block;
 		color: white;
 	}
@@ -1914,7 +1914,36 @@ ul.footer-menu {
 	}
 
 
+
+	.back-to-top {
+		bottom: -6px;
+		left:80%;		
+	}
+
+	.back-to-top a:before {
+		background-size: 60px 30px;
+	}
+
+
+	.footer-block {
+		min-width: 320px;
+	}
+
 	.footer-nav {
+		margin: 0 auto;
+		display: block;
+		float: none;
+		width: 320px;
+		font-size: 1rem;
+	}
+
+	.contact-us, 
+	.subscribe-link, 
+	.subscribe-link > a {
+		display: none;
+	}
+
+	.footer-menu > li.footer-nav-last-divider {
 		display: none;
 	}
 
