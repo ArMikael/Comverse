@@ -1812,6 +1812,46 @@ ul.footer-menu {
 		margin-bottom: 8px;
 	}
 
+	.event-container,
+	.event-box, 
+	.event-box-content {
+		width: 100%;
+	}
+
+	.event-container {
+		height: 200px;
+	}
+	
+	.event-box {
+		height: 90px;
+	}
+
+	.events h2, .events h4 {
+		font: 100 2.4rem "Open Sans", sans-serif;
+	}
+
+	.event-box-content {
+		height: 84px;
+	}
+
+	.date-box {
+		height: 68px;
+		width: 62px;
+	}
+
+	.date {
+		font-size: 3.6rem;
+		margin: 0px;
+		line-height: 4rem;
+		font-weight: 400;
+	}
+
+	.month {
+		font-size: 1.8rem;
+		line-height: 2.8rem;
+		font-weight: 300;
+	}
+
 	.services-list li {
 		width: 33%;
 	}
