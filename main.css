@@ -1644,7 +1644,10 @@ ul.footer-menu {
 		padding: 0;
 	}
 
-	.carousel-block {
+	.carousel-block, 
+	.services-block, 
+	.events-block, 
+	.stories-block {
 		height: auto;
 	}
 
@@ -1783,12 +1786,12 @@ ul.footer-menu {
 	ol.carousel-nav {
 		padding: 0;
 		margin-top: 20px;
-		list-style: decimal;
-		top: 310px;
+		bottom: 540px;
 		left: 10px;
 		font-size: 1.6rem;
 		color: white;
 		line-height: 3rem;
+		z-index: 1;
 	}
 
 	.carousel-nav li {
