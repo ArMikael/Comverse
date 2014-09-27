@@ -1832,7 +1832,7 @@ ul.footer-menu {
 		height: 90px;
 	}
 
-	.events h2, .events h4 {
+	h2, .events h4 {
 		font: 100 2.4rem "Open Sans", sans-serif;
 	}
 
@@ -1860,6 +1860,11 @@ ul.footer-menu {
 
 	.services-list li {
 		width: 33%;
+	}
+
+	.story-columns {
+		width: 270px;
+		margin: 0 auto;
 	}
 	
 	.story-column2, 
