@@ -1745,6 +1745,7 @@ ul.footer-menu {
 	.main-nav-mobile label {
 		width: 100%;
 		border-radius: 0;
+		background: url("img/navCollapseArrowRight.png") no-repeat scroll 11px center, white;
 	}
 
 	/* All links in Mobile Navigation Block */
@@ -1766,20 +1767,14 @@ ul.footer-menu {
 		line-height: 3.8rem;
 	}
 
-	/* Links in Main Unordered List Only */
-	.main-nav-mobile > li > a {
-		background: url("../img/navCollapseArrowRight.png") no-repeat scroll 11px center, white;
-	}
-
-	/* Links in Sub Menus Only */
-	.mobile-sub-nav li a {
-		background-color: white;
-	}
-
 	input[type="checkbox"]:checked ~ ul {
 		display: block;
 		top:47px;
-		transition: top 2.7s;
+		transition: top 2.7s; /* doesn't work */
+	}
+
+	.main-nav-mobile input[type="checkbox"]:checked ~ label {
+		background: url("img/arrow-down.png") no-repeat scroll 6px center, white;
 	}
 	
 	.search-box {
