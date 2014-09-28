@@ -147,6 +147,10 @@ header {
 	text-transform: uppercase;
 }
 
+.mobile-navigation {
+	display: none;
+}
+
 .main-nav-mobile ul {
 	display: none;
 }
@@ -1713,7 +1717,7 @@ ul.footer-menu {
 		margin-top: 2px;
 	}
 
-	/*.mobile-navigation {
+/*	.mobile-navigation {
 		box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2p;
 	}*/
 
