@@ -147,17 +147,8 @@ header {
 	text-transform: uppercase;
 }
 
-.main-nav-mobile {
+.main-nav-mobile ul {
 	display: none;
-	list-style: none;
-	text-transform: uppercase;
-	font: 1.2rem "Open Sans";
-	float: left;
-	z-index: 2;
-}
-
-input[type="checkbox"]:checked ~ ul {
-	display: block;
 }
 
 .main-nav > li{
@@ -382,10 +373,10 @@ input[type="search"] {
 
 .mob-search-bar {
 	display: none;
-	width: auto;
+	height: 48px;
 	min-width: 320px;
 	position: absolute;
-	height: 98px;
+	width: auto;
 }
 
 
@@ -1675,10 +1666,7 @@ ul.footer-menu {
 	header {
 		width: auto;
 		position: relative;
-	}
-
-	.main-nav {
-		position: static;
+		z-index: 2;
 	}
 
 	.nav-panel {
@@ -1725,6 +1713,75 @@ ul.footer-menu {
 		margin-top: 2px;
 	}
 
+	/*.mobile-navigation {
+		box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2p;
+	}*/
+
+	.main-nav-mobile {
+		display: none;
+		list-style: none;
+		text-transform: uppercase;
+		font: 1.2rem "Open Sans";
+		position: absolute;
+		left: 0;
+		top:0;
+		z-index: 1;
+		width: 100%;
+		padding: 0;
+		/*box-shadow: inset 0px 4px 10px -5px hsla(0, 0%, 26%, 0.5);*/
+
+	}
+
+	.main-nav-mobile ul {
+		list-style: none;
+		background: white;
+		padding: 0;
+	}
+
+	.main-nav-mobile li {
+		color: #333333;
+	}
+
+	.main-nav-mobile label {
+		width: 100%;
+		border-radius: 0;
+	}
+
+	/* All links in Mobile Navigation Block */
+	.main-nav-mobile li a,
+	.main-nav-mobile label {
+		background-color: white;
+		margin: 0;
+		padding: 0 30px;
+		height: 3.8rem;
+		text-transform: uppercase;
+		display: block;
+		text-align: left;
+		width: 100%;
+		color: #585951;
+		border-bottom: 1px solid #dbdbdb;
+		border-top: 1px solid #fff;
+		font: 1.4rem Arial;
+		text-decoration: none;
+		line-height: 3.8rem;
+	}
+
+	/* Links in Main Unordered List Only */
+	.main-nav-mobile > li > a {
+		background: url("../img/navCollapseArrowRight.png") no-repeat scroll 11px center, white;
+	}
+
+	/* Links in Sub Menus Only */
+	.mobile-sub-nav li a {
+		background-color: white;
+	}
+
+	input[type="checkbox"]:checked ~ ul {
+		display: block;
+		top:47px;
+		transition: top 2.7s;
+	}
+	
 	.search-box {
 		display: none;
 	}
@@ -1755,7 +1812,6 @@ ul.footer-menu {
 		border: 1px solid #D1D1D1;
 		padding: 0 5px;
 	}
-
 
 	
 	.bg-wrapper {

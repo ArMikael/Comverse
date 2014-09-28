@@ -8,7 +8,6 @@
 <body>
 	<div class="content">
 		<header>
-
 			<div class="nav-panel">
 				<a id="brand" href="#">
 					<img src="img/logo.png" alt="logo">
@@ -164,8 +163,8 @@
 					</ul>
 
 					<!-- Mobile Version Nav Button -->
-					<div>
-						<label class="btn-mobile mobile-nav" for="nav-mobile-btn">
+					<div class="mobile-navigation">
+						<label class="mobile-nav" for="nav-mobile-btn">
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
@@ -175,8 +174,9 @@
 					
 						<ul class="main-nav-mobile">
 							<li>
-								<a href="#">Your Needs</a>
-								<ul>
+								<label for="mobile-sub-your-needs">Your Needs</label>
+								<input type="checkbox" class="mobile-sub-nav" id="mobile-sub-your-needs">
+								<ul class="mobile-sub-nav">
 									<li>
 										<a href="#">Smart Monetization</a>
 									</li>
@@ -204,8 +204,9 @@
 								</ul>
 							</li>
 							<li>
-								<a href="#">Our Portfolio</a>
-								<ul>
+								<label for="mobile-sub-our-portfolio">Our Portfolio</label>
+								<input type="checkbox" class="mobile-sub-nav" id="mobile-sub-our-portfolio">
+								<ul class="mobile-sub-nav">
 									<li>
 										<a href="#">Smart Monetization</a>
 									</li>
@@ -233,8 +234,9 @@
 								</ul>
 							</li>
 							<li>
-								<a href="#">News & Media</a>
-								<ul>
+								<label for="mobile-sub-news-and-media">News & Media</label>
+								<input type="checkbox" class="mobile-sub-nav" id="mobile-sub-news-and-media">
+								<ul class="mobile-sub-nav">
 									<li>
 										<a href="#">Smart Monetization</a>
 									</li>
@@ -262,8 +264,9 @@
 								</ul>
 							</li>
 							<li>
-								<a href="#">About Comverse</a>
-								<ul>
+								<label for="mobile-sub-about-comverse">About Comverse</label>
+								<input type="checkbox" class="mobile-sub-nav" id="mobile-sub-about-comverse">
+								<ul class="mobile-sub-nav">
 									<li>
 										<a href="#">Smart Monetization</a>
 									</li>
@@ -291,7 +294,7 @@
 								</ul>
 							</li>
 						</ul>
-					</div>					
+					</div>				
 				</nav>
 
 				<!-- Language and Login -->
@@ -316,7 +319,7 @@
 					</a>
 				</form>
 				<!-- Mobile Search Bar -->
-				<label class="btn-mobile mobile-search" for="search-btn-mobile"></label>
+				<label class="mobile-search" for="search-btn-mobile"></label>
 				<input type="checkbox" id="search-btn-mobile">
 				<div class="mob-search-bar">
 					<input type="search" name="search" value="Search" placeholder="Search">
