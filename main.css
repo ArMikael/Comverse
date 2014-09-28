@@ -95,13 +95,6 @@ label {
 	height: 38px;
 }
 
-.mob-search-bar label {
-	background: url("img/searchBtnMobile.png") no-repeat 50% 50%, linear-gradient(to bottom, #f2f2f2 0%,#e5e5e5 100%);
-	border: 1px solid #d9d9d9;
-	border-radius: 5px;
-	float: right;
-}
-
 input[type=checkbox] {
 	display: none;
 }
@@ -392,7 +385,7 @@ input[type="search"] {
 	width: auto;
 	min-width: 320px;
 	position: absolute;
-	height: 48px;
+	height: 98px;
 }
 
 
@@ -1703,19 +1696,20 @@ ul.footer-menu {
 
 	label {
 		display: block;
-		height: 38px;
-		width: 38px;
 		border: 1px solid #d9d9d9;
 		border-radius: 5px;
-		position: absolute;
-		top: 10px;
-		left: 10px;
 		text-decoration: none;
 		background: linear-gradient(to bottom, #f2f2f2 0%,#e5e5e5 100%);
 	}
 
 	label:hover {
 		cursor: pointer; 
+	}
+
+	label.mobile-nav {
+		position: absolute;
+		top: 10px;
+		left: 10px;
 	}
 
 	.icon-bar {
@@ -1731,29 +1725,19 @@ ul.footer-menu {
 		margin-top: 2px;
 	}
 
-	.search-box input[type="submit"] {
-		background: url("img/searchBtnMobile.png") no-repeat 50% 50%, linear-gradient(to bottom, #f2f2f2 0%,#e5e5e5 100%);
-		height: 38px;
-		width: 38px;
-		border: 1px solid #d9d9d9;
-		border-radius: 5px;
-		position: static;
-		float: right;
-	}
-
 	.search-box {
-		width: auto;
+		display: none;
+	}
+
+	label.mobile-search {
+		float: right;
+		background: url("img/searchBtnMobile.png") no-repeat 50% 50%, linear-gradient(to bottom, #f2f2f2 0%,#e5e5e5 100%);
 		position: absolute;
-		right: 10px;
 		top: 10px;
-		margin: 0;
+		right: 10px;
 	}
 
-	label {
-		display: block;
-	}
-
-	.search-box:active .mob-search-bar {
+	input[type="checkbox"]:checked + div {
 		display: block;
 		top:50px;
 		left:-272px;
@@ -1761,6 +1745,17 @@ ul.footer-menu {
 		background-color: white;
 		z-index: 2;
 	}
+
+	.mob-search-bar input {
+		color: black;
+		width: 100%;
+		position: absolute;
+		font-size: 14px;
+		border-radius: 5px;
+		border: 1px solid #D1D1D1;
+		padding: 0 5px;
+	}
+
 
 	
 	.bg-wrapper {
