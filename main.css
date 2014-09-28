@@ -89,32 +89,21 @@ h4 {
 }
 
 /* Mobile Navigation Button */
-.btn-navbar, label {
+label {
 	display: none;
 	width: 38px;
 	height: 38px;
 }
 
-label:hover {
-	cursor: pointer;
-	/*border: 1px solid grey;*/
-}
-
 .mob-search-bar label {
-	width: 38px;
-	height: 38px;
 	background: url("img/searchBtnMobile.png") no-repeat 50% 50%, linear-gradient(to bottom, #f2f2f2 0%,#e5e5e5 100%);
 	border: 1px solid #d9d9d9;
 	border-radius: 5px;
 	float: right;
 }
 
-.btn-mobile {
-	display: block;
-}
-
 input[type=checkbox] {
-	/*display: none;*/
+	display: none;
 }
 
 
@@ -174,11 +163,7 @@ header {
 	z-index: 2;
 }
 
-/*.nav-mobile-btn:checked ~ .main-nav-mobile {
-	display: block;
-}*/
-
-input[type="checkbox"]:checked ~ .main-nav-mobile {
+input[type="checkbox"]:checked ~ ul {
 	display: block;
 }
 
@@ -1707,7 +1692,16 @@ ul.footer-menu {
 		height: 58px;
 	}
 
-	.btn-navbar {
+	#brand {
+		min-width: 120px;
+		height: 58px;
+		margin: 0 auto;
+		float: none;
+		display: block;
+		padding: 5px 0 0 20px;
+	}
+
+	label {
 		display: block;
 		height: 38px;
 		width: 38px;
@@ -1718,6 +1712,10 @@ ul.footer-menu {
 		left: 10px;
 		text-decoration: none;
 		background: linear-gradient(to bottom, #f2f2f2 0%,#e5e5e5 100%);
+	}
+
+	label:hover {
+		cursor: pointer; 
 	}
 
 	.icon-bar {
@@ -1751,19 +1749,8 @@ ul.footer-menu {
 		margin: 0;
 	}
 
-	#brand {
-		min-width: 120px;
-		height: 58px;
-		margin: 0 auto;
-		float: none;
+	label {
 		display: block;
-		padding: 5px 0 0 20px;
-	}
-
-	.btn-navbar:hover .main-nav-mobile{
-		display: block;
-		/*position: relative;*/
-	
 	}
 
 	.search-box:active .mob-search-bar {
