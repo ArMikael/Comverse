@@ -91,9 +91,16 @@ h4 {
 /* Mobile Navigation Button */
 .btn-navbar, label {
 	display: none;
+	width: 38px;
+	height: 38px;
 }
 
-label {
+label:hover {
+	cursor: pointer;
+	/*border: 1px solid grey;*/
+}
+
+.mob-search-bar label {
 	width: 38px;
 	height: 38px;
 	background: url("img/searchBtnMobile.png") no-repeat 50% 50%, linear-gradient(to bottom, #f2f2f2 0%,#e5e5e5 100%);
@@ -101,6 +108,17 @@ label {
 	border-radius: 5px;
 	float: right;
 }
+
+.btn-mobile {
+	display: block;
+}
+
+input[type=checkbox] {
+	/*display: none;*/
+}
+
+
+
 
 /* =============================================================================================================
 	HEADER
@@ -136,6 +154,7 @@ header {
 }
 
 /* Main Navigtaton Menu */
+
 .main-nav {
 	float: left;
 	font-weight: 200;
@@ -144,6 +163,23 @@ header {
 	padding-top: 50px;
 	position: relative;
 	text-transform: uppercase;
+}
+
+.main-nav-mobile {
+	display: none;
+	list-style: none;
+	text-transform: uppercase;
+	font: 1.2rem "Open Sans";
+	float: left;
+	z-index: 2;
+}
+
+/*.nav-mobile-btn:checked ~ .main-nav-mobile {
+	display: block;
+}*/
+
+input[type="checkbox"]:checked ~ .main-nav-mobile {
+	display: block;
 }
 
 .main-nav > li{
@@ -1633,8 +1669,6 @@ ul.footer-menu {
 		margin-top: 0;
 		margin-bottom: 0;
 	} */
-	
-
 }
 
 
@@ -1726,8 +1760,10 @@ ul.footer-menu {
 		padding: 5px 0 0 20px;
 	}
 
-	.btn-navbar:hover {
-
+	.btn-navbar:hover .main-nav-mobile{
+		display: block;
+		/*position: relative;*/
+	
 	}
 
 	.search-box:active .mob-search-bar {
@@ -1739,9 +1775,6 @@ ul.footer-menu {
 		z-index: 2;
 	}
 
-	label {
-		display: block;
-	}
 	
 	.bg-wrapper {
 		background: url("img/weDoBG.png") repeat scroll 0 0 #3399cc;
@@ -1872,7 +1905,6 @@ ul.footer-menu {
 	}
 
 	.services .btn-blue {
-		/*margin-top: 100px;*/
 		display: none;
 	} 
 
