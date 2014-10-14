@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Comverse - Contact Us</title>
+	<link rel="stylesheet" href="main.css">
+</head>
+<body>
+	<section class="wrapp" aria-labelledby="contact-form-heading" role="main">
+		<div>
+			<h1 id="contact-form-heading">CONTACT US</h1>
+			<h2>SHARE YOUR THOUGHTS, IDEAS ABOUT FUTURE PROJECTS OR JUST SAY HI</h2>
+			<h3>GET IN TOUCH</h3>
+		</div>
+		<form id="example_form" method="post" action="" role="form">
+			<!-- <form novalidate="novalidate"></form> -->
+			<div>
+				<label for="fullName">Full Name:</label>
+				<input type="text" name="firstName" id="fullName" required="required" oninvalid="this.setCustomValidity('Please Insert Your Full Name')">
+			</div>
+			<div>
+				<label for="email">Email:</label>
+				<input type="email" name="email" id="email" required="required" oninvalid="this.setCustomValidity('Please Insert Company name')">
+			</div>
+			<div>
+				<label for="company">Company:</label>
+				<input type="text" name="company" id="company" required="required" oninvalid="this.setCustomValidity('Please Insert Company name')">
+			</div>
+			<div>
+				<label for="phone">Phone:<span>(optional)</span></label>
+				<input type="tel" name="phone" id="phone">
+			</div>
+			<div>
+				<label for="message">How can we help?</label>
+				<textarea name="textarea" rows="10" cols="40" id="message" placeholder="Write something here"></textarea>
+			</div>
+			<div>
+				<fieldset class="fav-colors" aria-labelledby="colors-form-header" role="form">
+					<legend id="colors-form-header">Favorite colors:</legend>
+				</fieldset>
+			</div>
+			<div>
+				<button type="submit">Submit</button>
+			</div>
+		</form>
+	</section>	
+
+	<footer>
+		<div class="footer-block">
+			<div class="footer-links">
+				<div class="footer-links-column">
+					<h3 class="footer-heading">Key Solutions</h3>
+					<ul class="key-solutions">
+						<li>
+							<a href="#">Monetizing Data</a>
+						</li>
+						<li>
+							<a href="#">Over the Top (OTT)</a>
+						</li>
+						<li>
+							<a href="#">Machine to Machine (M2M)</a>
+						</li>
+						<li>
+							<a href="#">Cloud Computing</a>
+						</li>
+						<li>
+							<a href="#">Managed Services</a>
+						</li>
+						<li>
+							<a href="#">Customer Experience Management</a>
+						</li>
+						<li>
+							<a href="#">Rich Communication Suite (RCS)</a>
+						</li>
+						<li>
+							<a href="#">Social Media</a>
+						</li>
+						<li>
+							<a href="#">4G/LTE</a>
+						</li>
+					</ul>
+				</div>
+				
+				<div class="footer-links-column">
+					<h3 class="footer-heading">Products & Services</h3>
+					<ul class="products-services">
+						<li>
+							<a href="#">Billing</a>
+						</li>
+						<li>
+							<a href="#">VAS</a>
+						</li>
+						<li>
+							<a href="#">Mobile Internet</a>
+						</li>
+						<li>
+							<a href="#">Global Services</a>
+						</li>
+						<li>
+							<a href="#">Training Services</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="footer-links-column">
+					<h3 class="footer-heading">Company</h3>
+					<ul class="company-links">
+						<li>
+							<a href="#">Executive Profiles</a>
+						</li>
+						<li>
+							<a href="#">Clients</a>
+						</li>
+						<li>
+							<a href="#">Investors</a>
+						</li>
+						<li>
+							<a href="#">Partners</a>
+						</li>
+						<li>
+							<a href="#">Corporate Responsibility</a>
+						</li>
+						<li>
+							<a href="#">Industry Involvement</a>
+						</li>
+						<li>
+							<a href="#">Careers</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<ul class="footer-nav-mobile">
+				<a href="#">
+					<li>CONTACT US</li>
+				</a>
+				<a href="#">
+					<li>SUBSCRIBE TO COMVERSE NEWS</li>
+				</a>
+<!-- 					<div class="social-icons">
+						<a class="soc-icon ico-linkedin" href="#"></a>
+						<a class="soc-icon ico-youtube" href="#"></a>
+						<a class="soc-icon ico-twitter" href="#"></a>
+					</div> -->
+			</ul>
+
+			<div class="footer-box">
+				<div class="press-release">
+					<h4>Latest Press Release</h4>
+					<a href="#" class="footer-box-content">
+						<div class="date-box-footer">
+							<time datetime="2010-07-18">
+								<p class="footer-date">18</p>
+								<p class="footer-month">July</p>
+							</time>
+						</div>
+						<div class="latest-blog-post-text">
+							<p>Comverse Regains Lead in Convergent Charging Market</p>
+						</div>
+					</a>
+				</div>
+
+				<form class="subscribe">
+					<h4>Subscribe to Comverse</h4>
+					<input type="email" id="email" value="ronit.klein@gmail.com">
+					<input type="submit" id="subscribe-submit" value="SIGN UP" text="SIGN UP">
+				</form>
+
+				<div class="social-icons">
+					<a class="soc-icon ico-linkedin" href="#"></a>
+					<a class="soc-icon ico-youtube" href="#"></a>
+					<a class="soc-icon ico-twitter" href="#"></a>
+				</div>
+			</div>
+			
+			<div class="footer-nav">
+				<ul class="footer-menu">
+					<li>Copyright &#169; 2014 Comverse, Inc.</li>
+					<li> &nbsp; | &nbsp;</li>
+					<li>
+						<a href="#">Privacy Policy</a>
+					</li>
+					<li> &nbsp; | &nbsp;</li>
+					<li>
+						<a href="#">Sitemap</a>
+						</li>
+					<li class="footer-nav-last-divider"> &nbsp; | &nbsp;</li>
+					<li class="contact-us">
+						<a href="#">Contact Us</a>
+					</li>
+					<li class="subscribe-link">
+						<a href="#">SUBSCRIBE TO COMVERSE</a>
+					</li>
+				</ul>
+			</div>
+
+		</div>
+	</footer>
+</body>
+</html>
