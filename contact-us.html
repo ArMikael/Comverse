@@ -4,48 +4,82 @@
 	<meta charset="UTF-8">
 	<title>Comverse - Contact Us</title>
 	<link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" href="contact.css">
 </head>
 <body>
-	<section class="wrapp" aria-labelledby="contact-form-heading" role="main">
-		<div>
-			<h1 id="contact-form-heading">CONTACT US</h1>
-			<h2>SHARE YOUR THOUGHTS, IDEAS ABOUT FUTURE PROJECTS OR JUST SAY HI</h2>
-			<h3>GET IN TOUCH</h3>
-		</div>
-		<form id="example_form" method="post" action="" role="form">
-			<!-- <form novalidate="novalidate"></form> -->
-			<div>
-				<label for="fullName">Full Name:</label>
-				<input type="text" name="firstName" id="fullName" required="required" oninvalid="this.setCustomValidity('Please Insert Your Full Name')">
-			</div>
-			<div>
-				<label for="email">Email:</label>
-				<input type="email" name="email" id="email" required="required" oninvalid="this.setCustomValidity('Please Insert Company name')">
-			</div>
-			<div>
-				<label for="company">Company:</label>
-				<input type="text" name="company" id="company" required="required" oninvalid="this.setCustomValidity('Please Insert Company name')">
-			</div>
-			<div>
-				<label for="phone">Phone:<span>(optional)</span></label>
-				<input type="tel" name="phone" id="phone">
-			</div>
-			<div>
-				<label for="message">How can we help?</label>
-				<textarea name="textarea" rows="10" cols="40" id="message" placeholder="Write something here"></textarea>
-			</div>
-			<div>
-				<fieldset class="fav-colors" aria-labelledby="colors-form-header" role="form">
-					<legend id="colors-form-header">Favorite colors:</legend>
-				</fieldset>
-			</div>
-			<div>
-				<button type="submit">Submit</button>
-			</div>
-		</form>
-	</section>	
+	<div class="contact-us-block">
+		<div class="contact-us">
+			<nav class="side-nav" role="navigation">
+				<ul>
+					<li>
+						<a href="#">OVERVIEW</a>
+					</li>
+					<li>
+						<a href="#">TIMELINE</a>
+					</li>
+					<li>
+						<a href="#">VALUES</a>
+					</li>
+					<li>
+						<a href="#">MANAGEMENT</a>
+					</li>
+					<li>
+						<a href="#">INVESTORS</a>
+					</li>
+					<li>
+						<a href="#">CUSTOMERS</a>
+					</li>
+					<li>
+						<a href="#">PARTNERS</a>
+					</li>
+					<li>
+						<a href="#">CAREERS</a>
+					</li>
+					<li>
+						<a href="#">CONTACT US</a>
+					</li>
+				</ul>
+			</nav>
+			
+			<section class="contact-main" aria-labelledby="contact-form-heading" role="main">
+				<div>
+					<h1 id="contact-form-heading">CONTACT US</h1>
+					<h2>SHARE YOUR THOUGHTS, IDEAS ABOUT FUTURE PROJECTS OR JUST SAY HI</h2>
+					<h3>GET IN TOUCH</h3>
+				</div>
+				<form id="contact-form" method="post" action="" role="form">
+					<!-- <form novalidate="novalidate"></form> -->	
+						<label for="fullName">Full Name:</label>
+						<input type="text" name="firstName" id="fullName" required="required" >
+					
+					
+						<label for="mail">E-mail:</label>
+						<input type="email" name="email" id="mail" required="required" >
+					
+					
+						<label for="company">Company:</label>
+						<input type="text" name="company" id="company" required="required" >
+					
+					
+						<label for="phone">Phone:<span> (optional)</span></label>
+						<input type="tel" name="phone" id="phone">
+					
+						<label for="message">How can we help?</label>
+						<textarea name="textarea" id="message" placeholder="Write something here"></textarea>
+					
+						<button class="btn-blue main-btn" type="submit">
+							<span>SEND</span>
+						</button>
+				</form>
 
-	<footer>
+				<section class="thanks">
+						<span>THANKS! YOUR MESSAGE WAS SEND!</span>
+				</section>
+			</div>
+		</section>
+	</div>	
+
+	<footer role="contentinfo">
 		<div class="footer-block">
 			<div class="footer-links">
 				<div class="footer-links-column">
@@ -196,5 +230,20 @@
 
 		</div>
 	</footer>
+	<script>
+		window.onload = function() {
+			var contact = document.querySelector("#contact-form");
+			var submit = document.querySelector(".thanks");
+			//console.log(contact);
+			contact.addEventListener("submit", function submitMessage(e){
+				submit.style.display = "block";
+				submit.setAttribute("tabindex", -1);
+				submit.focus();
+				e.preventDefault();
+				//var timeoutID = window.setTimeout(submitMessage(), 3000);
+			});
+		};
+
+	</script>
 </body>
 </html>

@@ -1,0 +1,121 @@
+.contact-us-block {
+	background-color: #F4F4F4;
+}
+
+.contact-us {
+	width: 960px;
+	margin: 0 auto;
+	box-sizing: border-box; 
+}
+
+.contact-us:after {
+	clear: both;
+	display: block;
+	content: "";
+}
+
+section {
+	width: 729px;
+	padding: 20px;
+	box-sizing: border-box; 
+	float: left;
+}
+
+.side-nav {
+	width: 188px;
+	height: 444px;
+	float: left;
+	margin-top:50px;
+}
+.side-nav ul {
+	list-style: none;
+}
+
+.side-nav li {
+	height: 40px;
+}
+
+.side-nav li > a {
+	text-decoration: none;
+	color: grey;
+}
+
+.side-nav li > a:hover {
+	text-decoration: underline;
+	color: #3399CC;
+}
+
+h1, h2 {
+	text-align: left;
+	color: grey;
+}
+
+h1 {
+	font: 100 4.4rem "Open Sans";
+	margin: 10px 0;
+}
+
+h2 {
+	font-size: 1.6rem;
+	padding: 0;
+}
+
+h3{
+	font-size: 2.5rem;
+	color: #17a4ea;
+}
+
+label {
+	display: block;
+	color: grey;
+	width: 300px;
+	height: 20px;
+	font: 100 1.6rem "Open Sans";
+}
+
+input {
+	width: 300px;
+	height: 26px;
+	margin-bottom: 10px;
+	line-height: 2.4rem;
+	font-size: 1.6rem;
+	color: gray;
+}
+
+textarea {
+	font-size: 1.6rem;
+	color: gray;
+	width: 300px;
+	height: 160px;
+	border: 1px inset #d2d2d2;
+}
+
+.btn-blue {
+	margin: 20px 0;
+	width: 100px;
+}
+
+.btn-blue span {
+	color: white;
+	font-size: 1.6rem;
+	line-height: 3rem;
+	margin-left: 1px;
+	font-weight: 200;
+}
+
+.btn-blue span:after {
+	content: "";
+	background: url("img/btnArrow.png") no-repeat scroll right center;
+	margin: 0 10px 0 5px;
+	float: right;
+	width: 20px;
+	height: 30px;
+}
+
+.thanks {
+	display: none;
+	background-color: #17a4ea;
+	color: white;
+	border-radius: 3px;
+}
+}
