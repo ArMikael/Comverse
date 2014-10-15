@@ -188,7 +188,7 @@ header {
 	background: #FCFCFC;
 	box-shadow: 3px 3px 3px 0px grey;
 	display: none;
-	height: 240px;
+	height: 290px;
 	left:-190px;
 	position: absolute;
 	top: 82px;
@@ -225,7 +225,7 @@ header {
 	list-style: none;
 	width: 220px;
 	height: 20px;
-	padding: 5px 30px; 
+	padding: 1px 30px; 
 	font-size: 1.4rem;
 	text-transform: none;
 }
@@ -1313,7 +1313,7 @@ ul.footer-menu {
 
 	.sub-nav {
 		top:30px;
-		height: 200px;
+		height: 290px;
 		width: 700px;
 		left: 0;
 	}
