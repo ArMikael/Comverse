@@ -65,6 +65,12 @@ h3{
 	color: #17a4ea;
 }
 
+header:after {
+	display: block;
+	content: "";
+	clear: both;
+}
+
 label {
 	display: block;
 	color: grey;
@@ -73,7 +79,7 @@ label {
 	font: 100 1.6rem "Open Sans";
 }
 
-input {
+#contact-form input {
 	width: 300px;
 	height: 26px;
 	margin-bottom: 10px;
@@ -117,5 +123,4 @@ textarea {
 	background-color: #17a4ea;
 	color: white;
 	border-radius: 3px;
-}
 }
