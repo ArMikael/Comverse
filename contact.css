@@ -96,26 +96,12 @@ textarea {
 	border: 1px inset #d2d2d2;
 }
 
-.btn-blue {
-	margin: 20px 0;
+button.btn-blue {
+	margin: 10px 0;
+	height: 36px;
 	width: 100px;
-}
-
-.btn-blue span {
-	color: white;
-	font-size: 1.6rem;
-	line-height: 3rem;
-	margin-left: 1px;
-	font-weight: 200;
-}
-
-.btn-blue span:after {
-	content: "";
-	background: url("img/btnArrow.png") no-repeat scroll right center;
-	margin: 0 10px 0 5px;
-	float: right;
-	width: 20px;
-	height: 30px;
+	border: none;
+	cursor: pointer;
 }
 
 .thanks {
