@@ -109,6 +109,13 @@ header {
 	box-shadow: 0 0 12px 0px rgba(0, 0, 0, 0.7);
 }
 
+
+header:after {
+	display: block;
+	content: "";
+	clear: both;
+}
+
 .nav-panel {
 	background-color: #fff;
 	padding: 0; 
@@ -2059,5 +2066,119 @@ ul.footer-menu {
 	.footer-nav-mobile li:hover {
 		background-color: #BCBCBC;
 	}
-
 }
+
+/* =============================================================================================================
+	SINGLE PAGE STYLES
+   ============================================================================================================= */
+
+.contact-us-block {
+	background-color: #F4F4F4;
+}
+
+.contact-us {
+	width: 960px;
+	margin: 0 auto;
+	box-sizing: border-box; 
+}
+
+.contact-us:after {
+	clear: both;
+	display: block;
+	content: "";
+}
+
+.contact-main {
+	width: 729px;
+	padding: 20px;
+	box-sizing: border-box; 
+	float: left;
+}
+
+.side-nav {
+	width: 188px;
+	height: 444px;
+	float: left;
+	margin-top:50px;
+}
+
+.side-nav ul {
+	list-style: none;
+}
+
+.side-nav li {
+	height: 40px;
+}
+
+.side-nav li > a {
+	text-decoration: none;
+	color: grey;
+}
+
+.side-nav li > a:hover {
+	text-decoration: underline;
+	color: #3399CC;
+}
+
+.contact-main h1, 
+.contact-main h2 {
+	text-align: left;
+	color: grey;
+}
+
+.contact-main h1 {
+	font: 100 4.4rem "Open Sans";
+	margin: 10px 0;
+}
+
+.contact-main h2 {
+	font-size: 1.6rem;
+	padding: 0;
+}
+
+.contact-main h3{
+	font-size: 2.5rem;
+	color: #17a4ea;
+}
+
+
+#contact-form label {
+	display: block;
+	color: grey;
+	width: 300px;
+	height: 20px;
+	font: 100 1.6rem "Open Sans";
+}
+
+#contact-form input {
+	width: 300px;
+	height: 26px;
+	margin-bottom: 10px;
+	line-height: 2.4rem;
+	font-size: 1.6rem;
+	color: gray;
+}
+
+textarea {
+	font-size: 1.6rem;
+	color: gray;
+	width: 300px;
+	height: 160px;
+	border: 1px inset #d2d2d2;
+}
+
+button.btn-blue {
+	margin: 10px 0;
+	height: 36px;
+	width: 100px;
+	border: none;
+	cursor: pointer;
+}
+
+.thanks {
+	display: none;
+	background-color: #17a4ea;
+	color: white;
+	border-radius: 3px;
+}
+
