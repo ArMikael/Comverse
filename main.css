@@ -2180,5 +2180,7 @@ button.btn-blue {
 	background-color: #17a4ea;
 	color: white;
 	border-radius: 3px;
+	height: 50px;
+	padding: 10px;
 }
 
