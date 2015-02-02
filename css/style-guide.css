@@ -1,0 +1,183 @@
+/* Style Guide styles */
+
+.content {
+	background-color: #e5e5e5;
+	box-shadow: 0px 10px 10px 0px grey;
+	margin: 20px auto;
+	padding: 5px 30px;
+	width:76%;
+}
+
+.style-block-header {
+	border-bottom: solid 1px #959595;
+	color: #959595;
+	font: 20px Verdana, sans-serif;
+	text-align: left;
+	text-transform: none;
+	padding: 20px 0 5px 0;
+}
+
+h3.style-block-header {
+	font: 16px Verdana, sans-serif;
+	border-bottom: 1px dotted;
+	margin: 20px 650px 10px 10px;
+	padding: 5px 0 5px 0;
+}
+
+.color-box1, .color-box2, .color-box3,
+.color-box4, .color-box5, .color-box6 {
+	width: 100px;
+	height: 100px;
+	background-color: green;
+	margin-bottom: 7px;
+	display: inline-block;
+	border: 1px solid grey;
+}
+
+.color-box1 {
+	background-color: #3aa6db;
+}
+
+.color-box2 {
+	background-color: #F63D97;
+}
+
+.color-box3 {
+	background-color: #a0a0a0;
+}
+
+.color-box4 {
+	background-color: #e5e5e5;
+}
+
+.color-box5 {
+	background-color: #3195c9;
+}
+
+.color-box6 {
+	background-color: #3d3d3d;
+}
+
+
+figure {
+	background-color: white;
+	padding: 10px;
+	width: 100px;
+	color: grey;
+	text-align: center;
+	float: left;
+	margin: 10px 10px;
+	border-radius: 8px;
+}
+
+.background-colours {
+	overflow: hidden;
+}
+
+
+/* Main Navigation */
+
+.main-nav-style-guide {
+	list-style: none;
+	float: left;
+	font: 12px "Open Sans";
+	padding-top: 20px;
+	text-transform: uppercase;
+	font-weight: 200;
+}
+
+.main-nav-style-guide  li{
+	float: left;
+}
+
+.main-nav-style-guide  li:not(:last-child):after {
+	content: "|";
+	color: #a0a0a0; 
+}
+
+.search-box {
+	float: none;	
+}
+
+.main-nav-style-guide  li a {
+	font-family: sans-serif; 
+	text-decoration: none;
+	color: #a0a0a0; 
+	padding: 6px 10px 6px 10px
+}
+
+.main-nav-style-guide  li a:link,
+.main-nav-style-guide  li a:visited {
+	color: #a0a0a0; 
+}
+
+.main-nav-style-guide  li a:hover, 
+.main-nav-style-guide  li a:active {
+	color: #2f95c8; 
+}
+
+nav:after {
+	clear: both;
+	content: "";
+	display: block;
+}
+
+
+/* Reseting Buttons styles for Style Guide */
+
+.btn-blue {
+	margin: 20px 0 0 0;
+}
+
+/* Removing floats for logo, main navigation menu, languages and search box that defined in style.css */
+#brand, .lang-login-search, .main-nav {
+	float: none;
+	margin:0;
+	padding: 10px;
+}
+
+ul.color-boxes {
+	margin-top: 0;
+}
+
+.color-text-box {
+	height: 175px;
+	margin-bottom: 30px;
+}
+
+.text-box-heading {
+	height: 100px;
+}
+
+
+/* Storie Block */
+.story-box-wrapper:after {
+	clear: both;
+}
+
+
+/* Social Icons Panel for Style Guide */
+.social-icons {
+	background-color: #3D3D3D;
+	padding: 10px;
+	width: 230px;
+}
+
+/* Footer Box for Style Guide */
+.footer-box-content {
+	background-color: #3D3D3D;
+	width: 230px;
+	color: white;
+}
+
+footer {
+	background-color: #2B2B2B;
+	padding: 0 20px; 
+	height: 320px;
+	width: 260px;
+	margin-bottom: 30px;
+}
+
+.footer-box {
+	float: none;
+}
