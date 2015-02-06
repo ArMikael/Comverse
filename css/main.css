@@ -539,7 +539,6 @@ p.text-box-link {
 
 
 p.text-box-link:before {
-	/* content: url("../img/colorBoxsIcon01.png"); */
 	content: " ";
 	background: url("../img/colorBoxsIcon01.png") no-repeat scroll left center;
 	float: left;
@@ -549,7 +548,6 @@ p.text-box-link:before {
 }
 
 /* Services Block */
-
 .services-block {
 	display: block;
 	height: 420px;
@@ -954,16 +952,6 @@ ul.services-list {
 .person-face {
 	float:left;
 }
-
-/* Adding Quote Image to Text - doesn't work
-
-.story-box blockquote:before {
-	content: " ";
-	background: url("../img/quote-grey.png") no-repeat 50% 50%;
-	display: block;
-	width: 20px;
-	height: 20px;
-}*/
 
 .story-box blockquote {
 	font-size: 19px;
